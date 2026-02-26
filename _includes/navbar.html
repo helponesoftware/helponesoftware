@@ -1,0 +1,141 @@
+<nav class="sticky top-0 z-50 bg-[#0A1428]/95 backdrop-blur-lg border-b border-white/10">
+  <div class="max-w-screen-2xl mx-auto px-6 py-5 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 bg-[#00E6C3] rounded-2xl flex items-center justify-center text-[#0A1428] font-bold text-2xl">H</div>
+      <span class="heading-font text-3xl font-semibold tracking-tighter">HelpOne</span>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <div class="dropdown">
+        <button class="nav-link flex items-center gap-1.5">Platform <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+        <div class="dropdown-content">
+          <div class="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
+            <a href="/volunteer-management/" class="hover:text-[#00E6C3]">Volunteer Management</a>
+            <a href="/event-management/" class="hover:text-[#00E6C3]">Event Management</a>
+            <a href="/fundraising/" class="hover:text-[#00E6C3]">Fundraising</a>
+            <a href="/participants/" class="hover:text-[#00E6C3]">Participants</a>
+            <a href="/donors-and-contacts/" class="hover:text-[#00E6C3]">Donors & Contacts</a>
+            <a href="/finances/" class="hover:text-[#00E6C3]">Finances</a>
+            <a href="/hr-solutions/" class="hover:text-[#00E6C3]">HR Solutions</a>
+            <a href="/policies-and-procedures/" class="hover:text-[#00E6C3]">Policies & Procedures</a>
+            <a href="/training-tracking/" class="hover:text-[#00E6C3]">Training Tracking</a>
+            <a href="/it-asset-tracking-management/" class="hover:text-[#00E6C3]">IT Asset Tracking</a>
+            <a href="/payments/" class="hover:text-[#00E6C3]">Payments</a>
+            <a href="/switching-to-helpone-payments/" class="hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+            <a href="/my-helpone/" class="hover:text-[#00E6C3]">My HelpOne</a>
+            <a href="/getting-started/" class="hover:text-[#00E6C3]">Getting Started</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="nav-link flex items-center gap-1.5">Who It’s For <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+        <div class="dropdown-content w-80">
+          <a href="/faith-communities/" class="block py-2 hover:text-[#00E6C3]">Faith Communities</a>
+          <a href="/schools-youth/" class="block py-2 hover:text-[#00E6C3]">Schools & Youth</a>
+          <a href="/animal-rescues/" class="block py-2 hover:text-[#00E6C3]">Animal Rescues</a>
+          <a href="/arts-culture/" class="block py-2 hover:text-[#00E6C3]">Arts & Culture</a>
+          <a href="/community-groups/" class="block py-2 hover:text-[#00E6C3]">Community Groups</a>
+          <a href="/small-nonprofits/" class="block py-2 hover:text-[#00E6C3]">Small Nonprofits</a>
+          <a href="/environmental-causes/" class="block py-2 hover:text-[#00E6C3]">Environmental Causes</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="nav-link flex items-center gap-1.5">Payments <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+        <div class="dropdown-content w-80">
+          <a href="/payments/" class="block py-2 hover:text-[#00E6C3]">Payments</a>
+          <a href="/switching-to-helpone-payments/" class="block py-2 hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+        </div>
+      </div>
+
+      <a href="/pricing/" class="nav-link">Pricing</a>
+
+      <div class="dropdown">
+        <button class="nav-link flex items-center gap-1.5">Company <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+        <div class="dropdown-content w-64">
+          <a href="/faqs/" class="block py-2 hover:text-[#00E6C3]">FAQs</a>
+          <a href="/about-us/" class="block py-2 hover:text-[#00E6C3]">About Us</a>
+          <a href="/partners/" class="block py-2 hover:text-[#00E6C3]">Partners</a>
+          <a href="/affiliate/" class="block py-2 hover:text-[#00E6C3]">Affiliate Program</a>
+          <a href="/security/" class="block py-2 hover:text-[#00E6C3]">Security</a>
+          <a href="/terms-and-conditions/" class="block py-2 hover:text-[#00E6C3]">Terms & Conditions</a>
+          <a href="/privacy-policy/" class="block py-2 hover:text-[#00E6C3]">Privacy Policy</a>
+          <a href="/contact-us/" class="block py-2 hover:text-[#00E6C3]">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Buttons -->
+    <div class="hidden md:flex items-center gap-4">
+      <button onclick="showDemoModal()" class="px-6 py-3 text-sm font-semibold border border-white/30 hover:border-white rounded-2xl transition-all">Watch 2-min video</button>
+      <button onclick="bookDemo()" class="px-8 py-3 bg-[#00E6C3] hover:bg-[#00E6C3]/90 text-[#0A1428] font-semibold rounded-2xl flex items-center gap-2 transition-all">
+        <i class="fas fa-calendar"></i> Book Free Demo
+      </button>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="hamburger" class="md:hidden text-3xl p-2">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Backdrop -->
+  <div id="mobile-backdrop" class="mobile-backdrop" onclick="closeMobileMenu()"></div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="bg-[#0A1428] border-t border-white/10 px-6 py-8 text-lg">
+    <div class="flex justify-end mb-6">
+      <button onclick="closeMobileMenu()" class="text-4xl text-white/70 hover:text-white">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="flex flex-col gap-6">
+      <div class="font-medium text-[#00E6C3]">Platform</div>
+      <a href="/volunteer-management/" onclick="closeMobileMenu()" class="block py-2">Volunteer Management</a>
+      <a href="/event-management/" onclick="closeMobileMenu()" class="block py-2">Event Management</a>
+      <a href="/fundraising/" onclick="closeMobileMenu()" class="block py-2">Fundraising</a>
+      <a href="/participants/" onclick="closeMobileMenu()" class="block py-2">Participants</a>
+      <a href="/donors-and-contacts/" onclick="closeMobileMenu()" class="block py-2">Donors & Contacts</a>
+      <a href="/finances/" onclick="closeMobileMenu()" class="block py-2">Finances</a>
+      <a href="/hr-solutions/" onclick="closeMobileMenu()" class="block py-2">HR Solutions</a>
+      <a href="/policies-and-procedures/" onclick="closeMobileMenu()" class="block py-2">Policies & Procedures</a>
+      <a href="/training-tracking/" onclick="closeMobileMenu()" class="block py-2">Training Tracking</a>
+      <a href="/it-asset-tracking-management/" onclick="closeMobileMenu()" class="block py-2">IT Asset Tracking</a>
+      <a href="/payments/" onclick="closeMobileMenu()" class="block py-2">Payments</a>
+      <a href="/switching-to-helpone-payments/" onclick="closeMobileMenu()" class="block py-2">Switching to HelpOne Payments</a>
+      <a href="/my-helpone/" onclick="closeMobileMenu()" class="block py-2">My HelpOne</a>
+      <a href="/getting-started/" onclick="closeMobileMenu()" class="block py-2">Getting Started</a>
+
+      <div class="font-medium mt-4 text-[#00E6C3]">Who It’s For</div>
+      <a href="/faith-communities/" onclick="closeMobileMenu()" class="block py-2">Faith Communities</a>
+      <a href="/schools-youth/" onclick="closeMobileMenu()" class="block py-2">Schools & Youth</a>
+      <a href="/animal-rescues/" onclick="closeMobileMenu()" class="block py-2">Animal Rescues</a>
+      <a href="/arts-culture/" onclick="closeMobileMenu()" class="block py-2">Arts & Culture</a>
+      <a href="/community-groups/" onclick="closeMobileMenu()" class="block py-2">Community Groups</a>
+      <a href="/small-nonprofits/" onclick="closeMobileMenu()" class="block py-2">Small Nonprofits</a>
+      <a href="/environmental-causes/" onclick="closeMobileMenu()" class="block py-2">Environmental Causes</a>
+
+      <div class="font-medium mt-4 text-[#00E6C3]">Payments</div>
+      <a href="/payments/" onclick="closeMobileMenu()" class="block py-2">Payments</a>
+      <a href="/switching-to-helpone-payments/" onclick="closeMobileMenu()" class="block py-2">Switching to HelpOne Payments</a>
+
+      <a href="/pricing/" onclick="closeMobileMenu()" class="font-medium mt-4">Pricing</a>
+
+      <div class="font-medium mt-4 text-[#00E6C3]">Company</div>
+      <a href="/faqs/" onclick="closeMobileMenu()" class="block py-2">FAQs</a>
+      <a href="/about-us/" onclick="closeMobileMenu()" class="block py-2">About Us</a>
+      <a href="/partners/" onclick="closeMobileMenu()" class="block py-2">Partners</a>
+      <a href="/affiliate/" onclick="closeMobileMenu()" class="block py-2">Affiliate Program</a>
+      <a href="/security/" onclick="closeMobileMenu()" class="block py-2">Security</a>
+      <a href="/terms-and-conditions/" onclick="closeMobileMenu()" class="block py-2">Terms & Conditions</a>
+      <a href="/privacy-policy/" onclick="closeMobileMenu()" class="block py-2">Privacy Policy</a>
+      <a href="/contact-us/" onclick="closeMobileMenu()" class="block py-2">Contact Us</a>
+
+      <div class="pt-8 border-t border-white/10">
+        <button onclick="bookDemo();closeMobileMenu()" class="w-full py-5 bg-[#00E6C3] text-[#0A1428] font-semibold rounded-3xl">Book Free Demo</button>
+      </div>
+    </div>
+  </div>
+</nav>
