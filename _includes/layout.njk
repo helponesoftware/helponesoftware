@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "head.html" %}
+</head>
+<body class="bg-[#0A1428] text-white overflow-x-hidden">
+  {% include "navbar.html" %}
+  
+  {{ content | safe }}
+  
+  {% include "footer.html" %}
+</body>
+</html>
