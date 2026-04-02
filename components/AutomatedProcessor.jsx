@@ -8,7 +8,7 @@ export default function AutomatedProcessor() {
                     Access the Automated Processor Approval System
                 </h2>
                 <p className="text-sm md:text-base text-white/80 mb-10">
-                    Takes 60 seconds. Get approved in 1-3 business days — no commitment required.
+                    Takes 60 seconds. Get approved in 1-3 business days – no commitment required.
                 </p>
                 <div className="bg-[#050914] border border-[#1a2640] p-8 md:p-12 rounded-2xl max-w-lg mx-auto">
                     <Link

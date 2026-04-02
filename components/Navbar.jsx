@@ -15,17 +15,6 @@ export default function Navbar() {
     const navRef = useRef(null);
     const hoverTimeoutRef = useRef(null);
 
-    // Handle clicks outside the desktop navigation to close dropdowns
-    useEffect(() => {
-        function handleClickOutside(event) {
-            if (navRef.current && !navRef.current.contains(event.target)) {
-                setOpenDesktopDropdown(null);
-            }
-        }
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
-    }, []);
-
     function openMobileMenu() {
         setMobileOpen(true);
     }
@@ -75,7 +64,48 @@ export default function Navbar() {
     function closeVideoModal() {
         setVideoOpen(false);
         setVideoPlaying(false);
+        // Clear hash without scrolling
+        if (window.location.hash === '#video') {
+            window.history.pushState(null, '', window.location.pathname + window.location.search);
+        }
     }
+
+    // Handle hash-based triggers (e.g. from homepage Hero)
+    useEffect(() => {
+        const handleHash = () => {
+            if (window.location.hash === '#video') {
+                setVideoOpen(true);
+            }
+        };
+
+        // Listen for internal Link navigation which might not fire native hashchange
+        const handleLinkClick = (e) => {
+            const link = e.target.closest('a');
+            if (link && link.getAttribute('href') === '/#video' || (link && link.hash === '#video')) {
+                setVideoOpen(true);
+            }
+        };
+
+        handleHash();
+        window.addEventListener('hashchange', handleHash);
+        window.addEventListener('click', handleLinkClick);
+
+        return () => {
+            window.removeEventListener('hashchange', handleHash);
+            window.removeEventListener('click', handleLinkClick);
+        };
+    }, []);
+
+    // Handle clicks outside the desktop navigation to close dropdowns
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setOpenDesktopDropdown(null);
+            }
+        }
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
 
     return (
         <>
@@ -173,7 +203,7 @@ export default function Navbar() {
                                 <Link href="/faq" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">FAQs</Link>
                                 <Link href="/about-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">About Us</Link>
                                 <Link href="/partners" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Partners</Link>
-                                <Link href="/affiliate" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Affiliate Program</Link>
+
                                 <Link href="/security" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Security</Link>
                                 <Link href="/terms-and-conditions" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Terms & Conditions</Link>
                                 <Link href="/privacy-policy" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Privacy Policy</Link>
@@ -278,6 +308,21 @@ export default function Navbar() {
                                 )}
 
 
+                                {/* Payments */}
+                                <button
+                                    onClick={() => toggleMobileDropdown('payments')}
+                                    className="flex items-center justify-between w-full py-3 font-semibold text-[#00E6C3] border-t border-white/10"
+                                >
+                                    Payments
+                                    <i className={`fas fa-chevron-down text-xs transition-transform duration-300 ${openDropdowns['payments'] ? 'rotate-180' : ''}`}></i>
+                                </button>
+                                {openDropdowns['payments'] && (
+                                    <div className="flex flex-col gap-1 pl-3 mb-2 border-l-2 border-[#00E6C3]/30">
+                                        <Link href="/payments" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Payments</Link>
+                                        <Link href="/switching-to-helpone-payments" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Switching to HelpOne Payments</Link>
+                                    </div>
+                                )}
+
                                 {/* Pricing */}
                                 <Link href="/pricing/" onClick={closeMobileMenu} className="py-3 font-semibold text-[#00E6C3]  border-t border-white/10 hover:text-[#00E6C3] transition-colors">
                                     Pricing
@@ -296,7 +341,7 @@ export default function Navbar() {
                                         <Link href="/faq" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">FAQs</Link>
                                         <Link href="/about-us" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">About Us</Link>
                                         <Link href="/partners" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Partners</Link>
-                                        <Link href="/affiliate" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Affiliate Program</Link>
+
                                         <Link href="/security" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Security</Link>
                                         <Link href="/terms-and-conditions" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Terms & Conditions</Link>
                                         <Link href="/privacy-policy" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Privacy Policy</Link>
@@ -345,7 +390,7 @@ export default function Navbar() {
                         </button>
 
                         {videoPlaying ? (
-                            /* Iframe — only loads after click */
+                            /* Iframe – only loads after click */
                             <iframe
                                 src="https://www.youtube.com/embed/3WDJsZBQXn0?autoplay=1&rel=0"
                                 title="HelpOne 2-minute Demo"

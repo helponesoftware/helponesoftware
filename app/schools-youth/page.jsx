@@ -40,7 +40,7 @@ export default function SchoolsYouthPage() {
                 badge="Who It's For • Schools & Youth"
                 title="Schools & Youth."
                 titleAccent="Shaping the Next Generation."
-                subtitle="The all-in-one platform built for K-12 schools, after-school programs, and youth ministries. Unlimited volunteer coordination, parent communication, event management, fundraising, and student tracking — so you can focus on education and life-changing impact."
+                subtitle="The all-in-one platform built for K-12 schools, after-school programs, and youth ministries. Unlimited volunteer coordination, parent communication, event management, fundraising, and student tracking – so you can focus on education and life-changing impact."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

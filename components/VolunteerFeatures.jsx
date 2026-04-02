@@ -19,7 +19,7 @@ export default function VolunteerFeatures() {
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
                             HelpOne was built exclusively for 501(c)(3)s. No bloated corporate features. Just the exact tools<br className="hidden md:block" />
-                            you actually use \u2014 all connected, unlimited, and breathtakingly simple.
+                            you actually use – all connected, unlimited, and breathtakingly simple.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -36,7 +36,7 @@ export default function VolunteerFeatures() {
                                     AUTO 990 VALUATION
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    $33.49 per hour \u2014 automatically calculated<br className="hidden md:block" />and ready for your return.
+                                    $33.49 per hour – automatically calculated<br className="hidden md:block" />and ready for your return.
                                 </p>
                             </div>
                         </div>

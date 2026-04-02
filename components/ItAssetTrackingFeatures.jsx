@@ -21,7 +21,7 @@ export default function ItAssetTrackingFeatures() {
                             Unlike generic spreadsheets or capped tools like Snipe-IT and Asset Panda, HelpOne delivers a<br className="hidden xl:block" />
                             centralized dashboard with real-time charts, budget meters, and condition tracking. Unlimited<br className="hidden xl:block" />
                             hardware/software inventory, vendor management, license/warranty tracking, user assignments,<br className="hidden xl:block" />
-                            and expiration alerts — all in one secure, siloed platform built exclusively for nonprofits.
+                            and expiration alerts – all in one secure, siloed platform built exclusively for nonprofits.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -30,7 +30,7 @@ export default function ItAssetTrackingFeatures() {
                                     UNLIMITED SCALE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Endless assets, licenses, vendors — no per-<br className="hidden xl:block" />
+                                    Endless assets, licenses, vendors – no per-<br className="hidden xl:block" />
                                     asset fees
                                 </p>
                             </div>

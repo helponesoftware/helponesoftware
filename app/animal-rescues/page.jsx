@@ -40,7 +40,7 @@ export default function AnimalRescuesPage() {
                 badge="Who It's For • Animal Rescues"
                 title="Animal Rescues."
                 titleAccent="Saving Lives, One Tail Wag at a Time."
-                subtitle="The all-in-one platform built for animal shelters and rescues. Unlimited volunteer scheduling, adoption events, donor management, medical tracking, and fundraising — so you can spend more time saving lives and less time on paperwork."
+                subtitle="The all-in-one platform built for animal shelters and rescues. Unlimited volunteer scheduling, adoption events, donor management, medical tracking, and fundraising – so you can spend more time saving lives and less time on paperwork."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

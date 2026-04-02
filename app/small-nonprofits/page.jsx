@@ -14,7 +14,7 @@ export const metadata = {
 
 const trustItems = [
     'Flat $1.75/tx payments',
-    'No per-user fees',
+    'No per-record fees',
     'Unlimited everything',
     'Built for small teams'
 ];
@@ -40,7 +40,7 @@ export default function SmallNonprofitsPage() {
                 badge="Who It's For • Small Nonprofits"
                 title="Small Nonprofit."
                 titleAccent="Big Heart. One Platform."
-                subtitle="Affordable, unlimited software built for small teams doing big work. No per-user fees. No complicated contracts. Just everything you need to fundraise, organize volunteers, stay compliant, and focus on your mission."
+                subtitle="Affordable, unlimited software built for small teams doing big work. No per-record fees. No complicated contracts. Just everything you need to fundraise, organize volunteers, stay compliant, and focus on your mission."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

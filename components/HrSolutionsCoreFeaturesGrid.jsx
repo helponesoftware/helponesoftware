@@ -12,7 +12,7 @@ export default function HrSolutionsCoreFeaturesGrid() {
                         Core Features. Pure Clarity.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        Onboarding to separation — everything flows together.
+                        Onboarding to separation – everything flows together.
                     </p>
                 </div>
 
@@ -139,7 +139,7 @@ export default function HrSolutionsCoreFeaturesGrid() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4">Compensation & Benefits</h3>
                                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                                    Manage vacancies, salaries, bonuses, benefits enrollment, payroll prep — all in one secure place.
+                                    Manage vacancies, salaries, bonuses, benefits enrollment, payroll prep – all in one secure place.
                                 </p>
                                 <p className="text-[#00E6C3] font-semibold text-sm">
                                     Outcome: Enhanced updates and compliance.

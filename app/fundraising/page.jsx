@@ -11,7 +11,7 @@ import CtaBanner from '../../components/CtaBanner';
 
 export const metadata = {
     title: 'Nonprofit Fundraising | HelpOne Software',
-    description: 'Auctions, sponsorships, donations, pledges, contests, expenses — all unlimited in one beautiful platform.',
+    description: 'Auctions, sponsorships, donations, pledges, contests, expenses – all unlimited in one beautiful platform.',
 };
 
 export default function FundraisingPage() {
@@ -21,7 +21,7 @@ export default function FundraisingPage() {
                 badge="Fundraising • Part of the HelpOne OS"
                 title="Fundraising,"
                 titleAccent="Rebuilt for Impact."
-                subtitle="Auctions, sponsorships, donations, pledges, contests, expenses — all unlimited in one beautiful platform. Real-time P&L, auto volunteer hour valuation for 990, deep integrations."
+                subtitle="Auctions, sponsorships, donations, pledges, contests, expenses – all unlimited in one beautiful platform. Real-time P&L, auto volunteer hour valuation for 990, deep integrations."
              />
 
             <TrustBar

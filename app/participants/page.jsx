@@ -30,7 +30,7 @@ export default function ParticipantsPage() {
               Participant Dashboard
             </h2>
             <p className="text-xl text-white/70 mt-4">
-              Instant insights at your fingertips. See what matters most — and
+              Instant insights at your fingertips. See what matters most – and
               take action faster.
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function ParticipantsPage() {
                   85% repeat engagement rate
                 </div>
                 <p className="text-white/70 text-sm mt-6">
-                  Strong loyalty — people keep coming back.
+                  Strong loyalty – people keep coming back.
                 </p>
               </div>
             </div>

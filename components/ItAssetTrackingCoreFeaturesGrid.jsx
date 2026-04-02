@@ -12,7 +12,7 @@ export default function ItAssetTrackingCoreFeaturesGrid() {
                         Core Features. Pure Clarity.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From inventory to assignments — everything flows together.
+                        From inventory to assignments – everything flows together.
                     </p>
                 </div>
 

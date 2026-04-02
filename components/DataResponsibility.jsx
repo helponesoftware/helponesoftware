@@ -14,7 +14,7 @@ export default function DataResponsibility() {
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
                             Nonprofits handle sensitive donor, volunteer, and beneficiary information. We treat it with the
-                            highest level of care \u2014 because your mission depends on trust.
+                            highest level of care – because your mission depends on trust.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">

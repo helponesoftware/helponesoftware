@@ -14,7 +14,7 @@ export default function DonorsContactsCoreFeaturesGrid() {
                         Core Features. Pure Impact.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        Auctions, sponsorships, donations, pledges, contests, expenses — all in one secure platform.
+                        Auctions, sponsorships, donations, pledges, contests, expenses – all in one secure platform.
                     </p>
                 </div>
 

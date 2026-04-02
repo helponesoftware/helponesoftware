@@ -24,7 +24,7 @@ export default function HrSolutionsFeatures() {
                             volunteers** in one system, volunteer-staff unity, auto Form 990 compliance with volunteer hour<br className="hidden xl:block" />
                             valuation, self-service portal for both, and deep native integration across the entire HelpOne OS.<br className="hidden xl:block" />
                             From seamless onboarding and performance reviews to training tracking, policy management,<br className="hidden xl:block" />
-                            time-off requests, and compensation planning — everything is built for nonprofit realities with full<br className="hidden xl:block" />
+                            time-off requests, and compensation planning – everything is built for nonprofit realities with full<br className="hidden xl:block" />
                             audit-ready compliance.
                         </p>
 
@@ -34,7 +34,7 @@ export default function HrSolutionsFeatures() {
                                     VOLUNTEER-STAFF UNITY
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    One platform for both — shared training,<br className="hidden xl:block" />
+                                    One platform for both – shared training,<br className="hidden xl:block" />
                                     policies, reviews, time-off
                                 </p>
                             </div>

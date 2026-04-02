@@ -30,7 +30,7 @@ export default function ParticipantsFeatures() {
                                     LIFETIME VALUE SCORING
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Cash + volunteer time + recency — no<br className="hidden xl:block" />
+                                    Cash + volunteer time + recency – no<br className="hidden xl:block" />
                                     competitor consolidates this
                                 </p>
                             </div>

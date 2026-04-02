@@ -19,7 +19,7 @@ export default function FundraisingFeatures() {
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
                             Unlike Bloomerang or Classy (per-record fees, caps, silos), HelpOne gives you **unlimited**<br className="hidden xl:block" />
-                            donors, sponsors, vendors, gifts — with real-time P&L, auto volunteer hour valuation for your 990,<br className="hidden xl:block" />
+                            donors, sponsors, vendors, gifts – with real-time P&L, auto volunteer hour valuation for your 990,<br className="hidden xl:block" />
                             and deep native integrations across the entire platform. No barriers. No upsells. Just impact.
                         </p>
 

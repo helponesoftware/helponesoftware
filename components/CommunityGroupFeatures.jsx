@@ -15,7 +15,7 @@ export default function CommunityGroupFeatures() {
                     {/* Right Column (Content) */}
                     <div data-aos="fade-left" className="md:col-span-7 lg:col-span-7">
                         <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
-                            From block parties to neighborhood watches, HelpOne removes the admin burden so your group can focus on connection, service, and making your community better. Unlimited everything. One flat price. No per-user fees.
+                            From block parties to neighborhood watches, HelpOne removes the admin burden so your group can focus on connection, service, and making your community better. Unlimited everything. One flat price. No per-record fees.
                         </p>
 
                         <div className="grid sm:grid-cols-2 gap-10 lg:gap-16">

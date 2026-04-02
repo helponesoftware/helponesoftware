@@ -21,8 +21,8 @@ export default function SecurityPage() {
                 badge="Company &bull; Security"
                 title="Your Mission."
                 titleAccent="Our Protection."
-                subtitle="Enterprise-grade security trusted by nonprofits. SOC 2 Type II, PCI Level 1 certified, end-to-end encryption, and continuous monitoring so you can focus on your cause \u2014 not your data."
-             primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="View Certifications" secondaryCtaLink="#certifications" />
+                subtitle="Enterprise-grade security trusted by nonprofits. SOC 2 Type II, PCI Level 1 certified, end-to-end encryption, and continuous monitoring so you can focus on your cause – not your data."
+             primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" />
 
             {/* TRUST BAR */}
             <TrustBar
@@ -47,7 +47,7 @@ export default function SecurityPage() {
             <FutureProof
                 title="Even if you don't need every module today,"
                 titleAccent="your data is always protected."
-                description="Start with only what you need. Simply hide the rest \u2014 they disappear from your dashboard. Security remains active across the entire platform."
+                description="Start with only what you need. Simply hide the rest – they disappear from your dashboard. Security remains active across the entire platform."
             />
 
             {/* CTA */}

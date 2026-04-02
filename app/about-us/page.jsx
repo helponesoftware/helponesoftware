@@ -3,20 +3,20 @@ import Hero from '../../components/Hero';
 import CtaBanner from '../../components/CtaBanner';
 
 export const metadata = {
-    title: 'About HelpOne — Built for Nonprofits That Change the World',
+    title: 'About HelpOne – Built for Nonprofits That Change the World',
     description: 'HelpOne was built because nonprofits deserve better than scattered tools, high fees, and endless logins. Learn our story, mission, and the team behind the platform.',
     keywords: ['about HelpOne', 'nonprofit software company', 'nonprofit platform story', 'HelpOne mission'],
     alternates: {
         canonical: 'https://helponesoftware.com/about-us/',
     },
     openGraph: {
-        title: 'About HelpOne — Built for Nonprofits That Change the World',
+        title: 'About HelpOne – Built for Nonprofits That Change the World',
         description: 'We built HelpOne because nonprofits deserve better than scattered tools, high fees, and endless logins.',
         url: 'https://helponesoftware.com/about-us/',
         images: [{ url: '/assets/Logo-06.png', alt: 'About HelpOne' }],
     },
     twitter: {
-        title: 'About HelpOne — Built for Nonprofits That Change the World',
+        title: 'About HelpOne – Built for Nonprofits That Change the World',
         description: 'We built HelpOne because nonprofits deserve better.',
     },
 };
@@ -25,12 +25,12 @@ const trustPoints = [
     {
         emoji: '∞',
         title: 'Truly Unlimited',
-        desc: 'Unlimited users, donors, volunteers, events, transactions, reports — no caps, no per-seat fees, no surprises.',
+        desc: 'Unlimited users, donors, volunteers, events, transactions, reports – no caps, no per-seat fees, no surprises.',
     },
     {
         emoji: '💰',
         title: 'Keep More of Every Gift',
-        desc: 'Flat-rate processing at $1.75/tx (when you bring your processor) or low IC+ rates — save thousands every year.',
+        desc: 'Flat-rate processing at $1.75/tx (when you bring your processor) or low IC+ rates – save thousands every year.',
     },
     {
         emoji: '🔒',
@@ -40,7 +40,7 @@ const trustPoints = [
     {
         emoji: '🔄',
         title: 'Everything Connected',
-        desc: 'Volunteer hours automatically value in your P&L, payments sync to finance, donor data flows to events — one source of truth.',
+        desc: 'Volunteer hours automatically value in your P&L, payments sync to finance, donor data flows to events – one source of truth.',
     },
     {
         emoji: '🚀',
@@ -76,7 +76,7 @@ export default function AboutPage() {
                         </div>
                         <div className="space-y-6 text-white/75 text-base md:text-lg leading-relaxed">
                             <p>
-                                HelpOne was created because nonprofits deserve better than scattered software, high fees, and endless logins. We saw the frustration — mission-driven teams spending more time managing tools than making an impact. So we built something different: one secure, intuitive platform that puts your cause first.
+                                HelpOne was created because nonprofits deserve better than scattered software, high fees, and endless logins. We saw the frustration – mission-driven teams spending more time managing tools than making an impact. So we built something different: one secure, intuitive platform that puts your cause first.
                             </p>
                             <p>
                                 Founded by a team with deep roots in nonprofit operations and custom technology, HelpOne draws from real-world experience. Our strategic partner,{' '}
@@ -95,7 +95,7 @@ export default function AboutPage() {
                             Our Mission
                         </h2>
                         <p className="text-xl md:text-2xl text-white/80 leading-relaxed">
-                            To give every nonprofit the tools they need to thrive — powerful, easy to use, and built around your mission, not someone else&apos;s.
+                            To give every nonprofit the tools they need to thrive – powerful, easy to use, and built around your mission, not someone else&apos;s.
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ export default function AboutPage() {
                         <div className="flex items-center gap-5">
                             <div className="rounded-xl overflow-hidden border border-white/10 shadow-lg">
                                 <Image
-                                    src="/assets/poweredby.jpg"
+                                    src="/assets/otherfiles/CNS_Logo.png"
                                     alt="Citinet Solutions"
                                     width={160}
                                     height={80}

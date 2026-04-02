@@ -21,7 +21,7 @@ export default function FinancesPage() {
                 badge="Finances • Part of the HelpOne OS"
                 title="Nonprofit Finances,"
                 titleAccent="Rebuilt for Clarity."
-                subtitle="Nonprofit-specific chart of accounts. Real-time P&L. Auto 990/CHAR500. Restricted funds tracking. Unlimited transactions, deep integrations, GAAP/FASB compliant — all in one breathtaking platform."
+                subtitle="Nonprofit-specific chart of accounts. Real-time P&L. Auto 990/CHAR500. Restricted funds tracking. Unlimited transactions, deep integrations, GAAP/FASB compliant – all in one breathtaking platform."
              />
 
             <TrustBar

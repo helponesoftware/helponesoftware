@@ -61,7 +61,6 @@ export default function Footer() {
                             <Link href="/faq" className="block hover:text-white">FAQs</Link>
                             <Link href="/about-us" className="block hover:text-white">About Us</Link>
                             <Link href="/partners" className="block hover:text-white">Partners</Link>
-                            <Link href="/affiliate" className="block hover:text-white">Affiliate Program</Link>
                             <Link href="/security" className="block hover:text-white">Security</Link>
                             <Link href="/terms-and-conditions" className="block hover:text-white">Terms &amp; Conditions</Link>
                             <Link href="/privacy-policy" className="block hover:text-white">Privacy Policy</Link>

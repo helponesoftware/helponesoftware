@@ -7,7 +7,7 @@ export default function Hero({
     subtitle,
     primaryCtaText = "Schedule Free Demo",
     primaryCtaLink = "/contact-us",
-    secondaryCtaText = "Claim Founders Rate — $499/mo forever",
+    secondaryCtaText = "Claim Founders Rate – $499/mo forever",
     secondaryCtaLink = "/contact-us",
     hideSecondaryCta = false,
     hideButtons = false,

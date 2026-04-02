@@ -39,12 +39,6 @@
       "namedRegex": "^/about\\-us(?:/)?$"
     },
     {
-      "page": "/affiliate",
-      "regex": "^/affiliate(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/affiliate(?:/)?$"
-    },
-    {
       "page": "/animal-rescues",
       "regex": "^/animal\\-rescues(?:/)?$",
       "routeKeys": {},

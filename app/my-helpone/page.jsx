@@ -7,7 +7,7 @@ import MyHelpOneCta from '../../components/MyHelpOneCta';
 
 export const metadata = {
     title: 'My HelpOne | HelpOne Software',
-    description: 'The beautiful, personalized dashboard built exclusively for nonprofit teams. Action items, time-off, events, calendar, timesheets — all in one intuitive place.',
+    description: 'The beautiful, personalized dashboard built exclusively for nonprofit teams. Action items, time-off, events, calendar, timesheets – all in one intuitive place.',
 };
 
 export default function MyHelpOnePage() {
@@ -17,7 +17,7 @@ export default function MyHelpOnePage() {
                 badge="My HelpOne • Your Daily Command Center"
                 title="Welcome to My HelpOne."
                 titleAccent="Your Mission, Simplified."
-                subtitle="The beautiful, personalized dashboard built exclusively for nonprofit teams. Action items, time-off, events, calendar, timesheets — all in one intuitive place."
+                subtitle="The beautiful, personalized dashboard built exclusively for nonprofit teams. Action items, time-off, events, calendar, timesheets – all in one intuitive place."
              />
 
             <MyHelpOneCommandCenter />

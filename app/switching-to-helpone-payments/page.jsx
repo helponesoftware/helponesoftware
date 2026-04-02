@@ -35,7 +35,7 @@ export default function SwitchingPage() {
                     <span className="block text-lg md:text-xl text-white/90 font-medium">
                         You do NOT need a HelpOne subscription to sign up.<br />
                         Whether you&apos;re on QuickBooks Payments, PayPal,<br />
-                        Donorbox, Zeffy, Givebutter or another platform —<br />
+                        Donorbox, Zeffy, Givebutter or another platform –<br />
                         switching is simple, fast, and zero-workflow-change.<br />
                         Flat-rate $1.75/tx + $15/mo. No percentages. No contracts.<br />
                         No monthly minimums.
@@ -43,7 +43,7 @@ export default function SwitchingPage() {
                 }
                 primaryCtaText="Schedule Free Demo"
                 primaryCtaLink="/contact-us"
-                secondaryCtaText="Claim Founders Rate — $499/mo forever"
+                secondaryCtaText="Claim Founders Rate – $499/mo forever"
                 secondaryCtaLink="/pricing"
             />
 
@@ -71,7 +71,7 @@ export default function SwitchingPage() {
                         {/* Right Column */}
                         <div>
                             <p className="text-lg text-white/80 leading-relaxed mb-12">
-                                Unlike Stripe (2.9%+), PayPal, QuickBooks Payments, Donorbox, Zeffy or Givebutter (percentage fees + platform markup), switching to HelpOne is simple, fast, and zero-workflow-change. Use our secure payment links — just paste into invoices or replace your old checkout button. Flat-rate $1.75/tx + $15/mo (BYOP) or IC+ rates. Nonprofits save $500–$1,000+/month — often more than enough to cover the entire HelpOne platform.
+                                Unlike Stripe (2.9%+), PayPal, QuickBooks Payments, Donorbox, Zeffy or Givebutter (percentage fees + platform markup), switching to HelpOne is simple, fast, and zero-workflow-change. Use our secure payment links – just paste into invoices or replace your old checkout button. Flat-rate $1.75/tx + $15/mo (BYOP) or IC+ rates. Nonprofits save $500–$1,000+/month – often more than enough to cover the entire HelpOne platform.
                             </p>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -80,7 +80,7 @@ export default function SwitchingPage() {
                                         ZERO WORKFLOW CHANGE
                                     </h4>
                                     <p className="text-white/80 text-sm leading-relaxed">
-                                        Payment links work with QuickBooks, Donorbox, Zeffy, Givebutter — paste or replace button
+                                        Payment links work with QuickBooks, Donorbox, Zeffy, Givebutter – paste or replace button
                                     </p>
                                 </div>
                                 <div>
@@ -165,8 +165,8 @@ export default function SwitchingPage() {
                                     <td className="py-6 px-6 font-bold text-[#00E6C3]">HelpOne Payments</td>
                                     <td className="py-6 px-6 text-center text-[#00E6C3] font-bold">$1.75/tx + $15/mo</td>
                                     <td className="py-6 px-6 text-center text-[#00E6C3] font-bold">$135</td>
-                                    <td className="py-6 px-6 text-center text-white/40">—</td>
-                                    <td className="py-6 px-6 text-center text-white/40">—</td>
+                                    <td className="py-6 px-6 text-center text-white/40">–</td>
+                                    <td className="py-6 px-6 text-center text-white/40">–</td>
                                 </tr>
                             </tbody>
                         </table>

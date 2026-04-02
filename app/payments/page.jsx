@@ -30,7 +30,7 @@ export default function PaymentsPage() {
                 badge="Payments • Part of the HelpOne OS"
                 title="Nonprofit & Business"
                 titleAccent="Payments, Rebuilt for Impact."
-                subtitle="Flat-rate $1.75/tx + $15/mo (BYOP – bring your own processor). Unlimited transactions. Text-to-give, QR, Apple/Google Pay. Deep integrations. PCI Level 1. Keep more of every gift — no percentage fees stealing from your mission."
+                subtitle="Flat-rate $1.75/tx + $15/mo (BYOP – bring your own processor). Unlimited transactions. Text-to-give, QR, Apple/Google Pay. Deep integrations. PCI Level 1. Keep more of every gift – no percentage fees stealing from your mission."
              />
 
             {/* TRUST BAR */}
@@ -54,7 +54,7 @@ export default function PaymentsPage() {
                         {/* Right */}
                         <div className="space-y-8">
                             <p className="text-xl text-white/80 leading-relaxed font-light">
-                                Unlike Stripe (2.9%+ fees), PayPal, or Square, HelpOne gives you <strong>flat $1.75/tx + $15/mo</strong> (bring your own processor) or competitive IC+ rates. Unlimited transactions. No setup fees. No contracts. No minimums. Deep native integration with Volunteer Management, Events, Fundraising, and Finances — auto 990 valuation and real-time P&L sync. Nonprofits and businesses report 20% higher giving and 40% faster collections.
+                                Unlike Stripe (2.9%+ fees), PayPal, or Square, HelpOne gives you <strong>flat $1.75/tx + $15/mo</strong> (bring your own processor) or competitive IC+ rates. Unlimited transactions. No setup fees. No contracts. No minimums. Deep native integration with Volunteer Management, Events, Fundraising, and Finances – auto 990 valuation and real-time P&L sync. Nonprofits and businesses report 20% higher giving and 40% faster collections.
                             </p>
                             <div className="grid sm:grid-cols-2 gap-8 pt-6 border-t border-white/10">
                                 <div>
@@ -149,8 +149,8 @@ export default function PaymentsPage() {
                                     <td className="py-5 px-6 font-bold text-[#00E6C3]">HelpOne Payments</td>
                                     <td className="py-5 px-6 text-center text-[#00E6C3] font-bold">$1.75/tx + $15/mo</td>
                                     <td className="py-5 px-6 text-center text-[#00E6C3] font-bold">$135</td>
-                                    <td className="py-5 px-6 text-center font-bold text-white/40">—</td>
-                                    <td className="py-5 px-6 text-center font-bold text-white/40">—</td>
+                                    <td className="py-5 px-6 text-center font-bold text-white/40">–</td>
+                                    <td className="py-5 px-6 text-center font-bold text-white/40">–</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -241,7 +241,7 @@ export default function PaymentsPage() {
                             Core Features. Pure Savings.
                         </h2>
                         <p className="text-xl text-white/80 max-w-2xl mx-auto">
-                            Text-to-give, QR, Apple/Google Pay, recurring, auto-card updater — all unlimited.
+                            Text-to-give, QR, Apple/Google Pay, recurring, auto-card updater – all unlimited.
                         </p>
                     </div>
 
@@ -267,7 +267,7 @@ export default function PaymentsPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-white mb-4">Text-to-Give & QR Payments</h3>
                             <p className="text-white/70 leading-relaxed mb-6">
-                                Instant donations via text or QR code. Seamless, branded, unlimited — integrated with fundraising.
+                                Instant donations via text or QR code. Seamless, branded, unlimited – integrated with fundraising.
                             </p>
                             <div className="text-[#00E6C3] text-sm font-semibold">
                                 Outcome: 40% faster collections.

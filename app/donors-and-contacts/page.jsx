@@ -15,7 +15,7 @@ import emailCampaignsImg from "../../assets/donor/Powerful Email Campaigns.png";
 export const metadata = {
   title: "Donors & Contacts | HelpOne Software",
   description:
-    "Unified nonprofit CRM with unlimited contacts, companies, and vendors. Smart profiles, donation tracking, automated thank-yous, and powerful campaigns — all in one intuitive hub.",
+    "Unified nonprofit CRM with unlimited contacts, companies, and vendors. Smart profiles, donation tracking, automated thank-yous, and powerful campaigns – all in one intuitive hub.",
 };
 
 export default function DonorsContactsPage() {
@@ -25,7 +25,7 @@ export default function DonorsContactsPage() {
         badge="Platform • Donors & Contacts"
         title="Donors & Contacts."
         titleAccent="Build Relationships That Last."
-        subtitle="Unified nonprofit CRM with unlimited contacts, companies, and vendors. Smart profiles, donation tracking, automated thank-yous, and powerful campaigns — all in one intuitive hub."
+        subtitle="Unified nonprofit CRM with unlimited contacts, companies, and vendors. Smart profiles, donation tracking, automated thank-yous, and powerful campaigns – all in one intuitive hub."
       />
 
       <TrustBar

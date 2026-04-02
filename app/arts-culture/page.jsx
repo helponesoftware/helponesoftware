@@ -40,7 +40,7 @@ export default function ArtsCulturePage() {
                 badge="Who It's For • Arts & Culture"
                 title="Arts & Culture."
                 titleAccent="Where Creativity Meets Community."
-                subtitle="The all-in-one platform built for theaters, museums, galleries, and cultural organizations. Unlimited ticket sales, volunteer coordination, donor management, event ticketing, and grant tracking — so you can focus on creating unforgettable experiences."
+                subtitle="The all-in-one platform built for theaters, museums, galleries, and cultural organizations. Unlimited ticket sales, volunteer coordination, donor management, event ticketing, and grant tracking – so you can focus on creating unforgettable experiences."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

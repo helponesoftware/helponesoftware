@@ -17,7 +17,7 @@ export default function SwitchingIsSimple() {
                         <div className="text-4xl mb-4">🔗</div>
                         <h3 className="text-2xl font-bold text-white mb-3">Payment Links (Zero Changes)</h3>
                         <p className="text-white/70 text-sm leading-relaxed mb-6">
-                            Share a secure, branded link or QR code. Paste into QuickBooks notes/custom field or replace Donorbox/Zeffy/Givebutter checkout button. Donors pay instantly — funds deposit to your bank.
+                            Share a secure, branded link or QR code. Paste into QuickBooks notes/custom field or replace Donorbox/Zeffy/Givebutter checkout button. Donors pay instantly – funds deposit to your bank.
                         </p>
                         <div className="flex items-center gap-2">
                             <span className="text-[#00E6C3] font-bold text-sm">Outcome:</span>
@@ -43,7 +43,7 @@ export default function SwitchingIsSimple() {
                         <div className="text-4xl mb-4">🚀</div>
                         <h3 className="text-2xl font-bold text-white mb-3">1-3 Day Processor Approval</h3>
                         <p className="text-white/70 text-sm leading-relaxed mb-6">
-                            Apply through HelpOne — get approved in 1-3 business days. Keep your existing merchant account (PayPal) or start fresh.
+                            Apply through HelpOne – get approved in 1-3 business days. Keep your existing merchant account (PayPal) or start fresh.
                         </p>
                         <div className="flex items-center gap-2">
                             <span className="text-[#00E6C3] font-bold text-sm">Outcome:</span>
@@ -56,7 +56,7 @@ export default function SwitchingIsSimple() {
                         <div className="text-4xl mb-4">🛠️</div>
                         <h3 className="text-2xl font-bold text-white mb-3">Integration &amp; Migration Packages</h3>
                         <p className="text-white/70 text-sm leading-relaxed mb-6">
-                            Self-Service (Free) — Basic ($499 one-time) — Standard ($999–$1500) — Premium Full-Service ($1,999–$3500). Includes webhook setup, data migration, training, and priority support.
+                            Self-Service (Free) – Basic ($499 one-time) – Standard ($999–$1500) – Premium Full-Service ($1,999–$3500). Includes webhook setup, data migration, training, and priority support.
                         </p>
                         <div className="flex items-center gap-2">
                             <span className="text-[#00E6C3] font-bold text-sm">Outcome:</span>

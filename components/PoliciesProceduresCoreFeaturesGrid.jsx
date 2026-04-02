@@ -12,7 +12,7 @@ export default function PoliciesProceduresCoreFeaturesGrid() {
                         Core Features. Pure Clarity.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From draft to distribution — everything flows together.
+                        From draft to distribution – everything flows together.
                     </p>
                 </div>
 
@@ -50,7 +50,7 @@ export default function PoliciesProceduresCoreFeaturesGrid() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4">Living Books & Unlimited Structure</h3>
                                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                                    Create books with unlimited chapters and sections. Rich text, images, and media — all version-controlled.
+                                    Create books with unlimited chapters and sections. Rich text, images, and media – all version-controlled.
                                 </p>
                                 <p className="text-[#00E6C3] font-semibold text-sm">
                                     Outcome: Always-current policies.

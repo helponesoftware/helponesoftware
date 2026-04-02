@@ -6,20 +6,20 @@ import ModulesGrid from '../../components/ModulesGrid';
 import FutureProof from '../../components/FutureProof';
 
 export const metadata = {
-    title: 'Nonprofit Software Pricing — Unlimited Everything, One Price',
-    description: 'HelpOne pricing: one flat rate, unlimited users, records, events, transactions, and all 9 modules. No per-user fees, no hidden charges. Lock in the Founders Rate at $499/mo.',
+    title: 'Nonprofit Software Pricing – Unlimited Everything, One Price',
+    description: 'HelpOne pricing: one flat rate, unlimited users, records, events, transactions, and all 9 modules. No per-record fees, no hidden charges. Lock in the Founders Rate at $499/mo.',
     keywords: ['nonprofit software pricing', 'nonprofit platform cost', 'unlimited nonprofit software', 'nonprofit OS price', 'founders rate nonprofit'],
     alternates: {
         canonical: 'https://helponesoftware.com/pricing/',
     },
     openGraph: {
-        title: 'Nonprofit Software Pricing — Unlimited Everything, One Price | HelpOne',
-        description: 'Unlimited users, records, events, transactions, and all 9 modules. One flat price. No per-user fees.',
+        title: 'Nonprofit Software Pricing – Unlimited Everything, One Price | HelpOne',
+        description: 'Unlimited users, records, events, transactions, and all 9 modules. One flat price. No per-record fees.',
         url: 'https://helponesoftware.com/pricing/',
         images: [{ url: '/assets/Logo-06.png', alt: 'HelpOne Pricing' }],
     },
     twitter: {
-        title: 'Nonprofit Software Pricing — Unlimited Everything | HelpOne',
+        title: 'Nonprofit Software Pricing – Unlimited Everything | HelpOne',
         description: 'One flat price. Unlimited everything. All 9 nonprofit modules included.',
     },
 };
@@ -32,7 +32,7 @@ export default function PricingPage() {
                 badge="Pricing • Unlimited for Every Mission"
                 title="Unlimited Everything."
                 titleAccent="One Simple Price."
-                subtitle="The only all-in-one nonprofit platform with truly unlimited users, records, transactions, events, custom fields, forms, reports, and more. No per-user fees. No hidden charges."
+                subtitle="The only all-in-one nonprofit platform with truly unlimited users, records, transactions, events, custom fields, forms, reports, and more. No per-record fees. No hidden charges."
              primaryCtaText="Claim $499/mo Founders Rate" primaryCtaLink="/pricing" secondaryCtaText="Schedule Free Demo" secondaryCtaLink="/contact-us" />
 
             <TrustBar items={['Unlimited Custom Fields & Reports', 'No Per-Transaction Fees', 'Full White-Label in Scale Tier', 'SOC 2 • PCI Level 1']} />

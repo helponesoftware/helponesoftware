@@ -17,7 +17,7 @@ export default function GettingStartedPage() {
             <Hero
                 title="Welcome to HelpOne."
                 titleAccent="Your Mission Starts Here."
-                subtitle="From day one you'll land in My HelpOne — your personalized portal that greets you by name and shows exactly what needs your attention today. Zero disruption. First-week wins."
+                subtitle="From day one you'll land in My HelpOne – your personalized portal that greets you by name and shows exactly what needs your attention today. Zero disruption. First-week wins."
              primaryCtaText="Schedule Your Onboarding Call" primaryCtaLink="/contact-us" secondaryCtaText="See the 3 Steps" secondaryCtaLink="/getting-started#steps" />
 
             <GettingStartedTimeline />

@@ -27,7 +27,7 @@ export default function FaithCommunitiesPage() {
                 badge="Who It's For • Faith Communities"
                 title="Faith Communities."
                 titleAccent="Equipping the Saints, One Platform at a Time."
-                subtitle="The all-in-one platform built for churches, ministries, and faith-based organizations. Unlimited volunteer coordination, online giving, worship events, small groups, and member care — so you can focus on discipleship and kingdom impact."
+                subtitle="The all-in-one platform built for churches, ministries, and faith-based organizations. Unlimited volunteer coordination, online giving, worship events, small groups, and member care – so you can focus on discipleship and kingdom impact."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

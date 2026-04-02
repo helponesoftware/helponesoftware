@@ -12,7 +12,7 @@ export default function TrainingTrackingCoreFeaturesGrid() {
                         Core Features. Pure Clarity.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From creation to completion — everything flows together.
+                        From creation to completion – everything flows together.
                     </p>
                 </div>
 
@@ -50,7 +50,7 @@ export default function TrainingTrackingCoreFeaturesGrid() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4">Easy Training Creation & Assignment</h3>
                                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                                    Build trainings from any source (internal or external), assign by individual, role, department, or volunteer type — unlimited slots. Set renewals with auto-alerts.
+                                    Build trainings from any source (internal or external), assign by individual, role, department, or volunteer type – unlimited slots. Set renewals with auto-alerts.
                                 </p>
                                 <p className="text-[#00E6C3] font-semibold text-sm">
                                     Outcome: Assignments in seconds.
@@ -125,7 +125,7 @@ export default function TrainingTrackingCoreFeaturesGrid() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4">Reporting & Exports</h3>
                                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                                    One-click CSV/PDF exports filtered by training or user — perfect for grants, audits, or board reports.
+                                    One-click CSV/PDF exports filtered by training or user – perfect for grants, audits, or board reports.
                                 </p>
                                 <p className="text-[#00E6C3] font-semibold text-sm">
                                     Outcome: Faster, accurate reporting.

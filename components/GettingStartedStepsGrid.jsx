@@ -43,7 +43,7 @@ export default function GettingStartedStepsGrid() {
                         </div>
                         <h3 className="text-2xl md:text-3xl font-bold mb-4">Launch & Thrive</h3>
                         <p className="text-white/70 text-base md:text-lg leading-relaxed">
-                            Go live with one click. Send welcome broadcast texts to staff and volunteers. Watch real-time dashboards light up. Your dedicated HelpOne specialist stays with you until you're flying solo — and anytime after.
+                            Go live with one click. Send welcome broadcast texts to staff and volunteers. Watch real-time dashboards light up. Your dedicated HelpOne specialist stays with you until you're flying solo – and anytime after.
                         </p>
                     </div>
                 </div>

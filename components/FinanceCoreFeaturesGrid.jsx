@@ -12,7 +12,7 @@ export default function FinanceCoreFeaturesGrid() {
                         Core Features. Pure Clarity.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From chart of accounts to one-click compliance — everything flows together.
+                        From chart of accounts to one-click compliance – everything flows together.
                     </p>
                 </div>
 

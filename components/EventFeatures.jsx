@@ -19,7 +19,7 @@ export default function EventFeatures() {
                     <div className="lg:col-span-8">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
                             Unlike Eventbrite (per-ticket fees) or SignUpGenius (limited features), HelpOne is truly unlimited<br className="hidden xl:block" />
-                            with deep native integrations to Volunteer Management, Finances, and Donor CRM — auto-valuing<br className="hidden xl:block" />
+                            with deep native integrations to Volunteer Management, Finances, and Donor CRM – auto-valuing<br className="hidden xl:block" />
                             volunteer hours for your 990 and syncing fundraising counts in real-time.
                         </p>
 

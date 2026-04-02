@@ -1,13 +1,13 @@
 import { BookDemoButton } from './CtaButtons';
 
 /**
- * CtaBanner — reusable full-width teal call-to-action banner.
+ * CtaBanner – reusable full-width teal call-to-action banner.
  *
  * Props:
- *   title    {string|ReactNode}  — main headline
- *   subtitle {string|ReactNode}  — sub-copy below the headline
- *   buttonText {string}          — button label (default: "Book Your Free Demo Today")
- *   buttonClassName {string}     — optional extra classes for the button
+ *   title    {string|ReactNode}  – main headline
+ *   subtitle {string|ReactNode}  – sub-copy below the headline
+ *   buttonText {string}          – button label (default: "Book Your Free Demo Today")
+ *   buttonClassName {string}     – optional extra classes for the button
  */
 export default function CtaBanner({
     title = "Your mission is too important for average software.",

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function ModulesGrid({ modules }) {
+export default function ModulesGrid({ modules, title, subtitle }) {
     const defaultModules = [
         { emoji: '👥', color: 'bg-[#00E6C3]', title: 'Volunteer Management', desc: 'Self-service portal, QR check-ins, skill matching, hours tracking that auto-feeds your 990.', href: '/volunteer-management' },
         { emoji: '🎟️', color: 'bg-violet-500', title: 'Event Management', desc: 'Unified hub, dynamic ticketing, multi-day schedules, volunteer sync.', href: '/event-management' },
@@ -14,12 +14,14 @@ export default function ModulesGrid({ modules }) {
     ];
 
     const displayModules = modules || defaultModules;
+    const displayTitle = title || <>9 Powerful Modules.<br />One breathtaking platform.</>;
 
     return (
         <section id="modules" className="py-12 md:py-24 bg-[#0A1428]">
             <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
                 <div className="text-center mb-8 md:mb-16" data-aos="fade-up">
-                    <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter">9 Powerful Modules.<br />One breathtaking platform.</h2>
+                    <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter">{displayTitle}</h2>
+                    {subtitle && <p className="text-white/70 text-lg mt-4">{subtitle}</p>}
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-8">
                     {displayModules.map((mod, index) => (

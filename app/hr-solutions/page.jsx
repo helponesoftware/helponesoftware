@@ -11,7 +11,7 @@ import CtaBanner from '../../components/CtaBanner';
 
 export const metadata = {
     title: 'Nonprofit HR Solutions | HelpOne Software',
-    description: 'Onboarding, performance reviews, training, policies, time-off, compensation, vacancies — unlimited staff and volunteers in one intuitive platform.',
+    description: 'Onboarding, performance reviews, training, policies, time-off, compensation, vacancies – unlimited staff and volunteers in one intuitive platform.',
 };
 
 export default function HrSolutionsPage() {
@@ -21,7 +21,7 @@ export default function HrSolutionsPage() {
                 badge="HR Solutions • Part of the HelpOne OS"
                 title="Nonprofit HR,"
                 titleAccent="Rebuilt for Impact."
-                subtitle="Onboarding, performance reviews, training, policies, time-off, compensation, vacancies — unlimited staff and volunteers in one intuitive platform. Volunteer-staff unity, auto Form 990 compliance, mission-aligned."
+                subtitle="Onboarding, performance reviews, training, policies, time-off, compensation, vacancies – unlimited staff and volunteers in one intuitive platform. Volunteer-staff unity, auto Form 990 compliance, mission-aligned."
              />
 
             <TrustBar

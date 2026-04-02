@@ -20,7 +20,7 @@ export default function TrainingTrackingFeatures() {
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
                             Unlike limited LMS tools or scattered spreadsheets, HelpOne offers a centralized dashboard with<br className="hidden xl:block" />
                             real-time status charts and upcoming deadlines. Unlimited trainings, participants, and supervisors<br className="hidden xl:block" />
-                            — no caps, no extra fees. Easy creation and assignment from any source (internal or external),<br className="hidden xl:block" />
+                            – no caps, no extra fees. Easy creation and assignment from any source (internal or external),<br className="hidden xl:block" />
                             automated reminders, progress tracking, completion certificates, and one-click exports for grants<br className="hidden xl:block" />
                             or audits.
                         </p>
@@ -32,7 +32,7 @@ export default function TrainingTrackingFeatures() {
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
                                     Add endless trainings, participants, or<br className="hidden xl:block" />
-                                    supervisors — no caps, no fees
+                                    supervisors – no caps, no fees
                                 </p>
                             </div>
                             <div>

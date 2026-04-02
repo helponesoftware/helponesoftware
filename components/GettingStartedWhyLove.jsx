@@ -14,7 +14,7 @@ export default function GettingStartedWhyLove() {
                         <div className="text-5xl mb-6">📥</div>
                         <h3 className="text-xl font-bold mb-4">Seamless Imports</h3>
                         <p className="text-white/70 text-base leading-relaxed">
-                            DonorPerfect, VolunteerHub,<br className="hidden md:block" />QuickBooks, and more — no<br className="hidden md:block" />data left behind.
+                            DonorPerfect, VolunteerHub,<br className="hidden md:block" />QuickBooks, and more – no<br className="hidden md:block" />data left behind.
                         </p>
                     </div>
 

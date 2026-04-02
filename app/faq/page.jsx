@@ -14,7 +14,7 @@ export default function FAQPage() {
             items: [
                 {
                     q: 'What is HelpOne?',
-                    a: 'HelpOne is the only all-in-one platform built exclusively for nonprofits. One login gives you unlimited access to volunteer management, fundraising, events, donors, HR, finances, policies, training, and IT — with no per-user fees, no caps, and no hidden charges.',
+                    a: 'HelpOne is the only all-in-one platform built exclusively for nonprofits. One login gives you unlimited access to volunteer management, fundraising, events, donors, HR, finances, policies, training, and IT – with no per-user fees, no caps, and no hidden charges.',
                 },
                 {
                     q: 'Who is HelpOne for?',
@@ -22,7 +22,7 @@ export default function FAQPage() {
                 },
                 {
                     q: 'How is HelpOne different from other nonprofit software?',
-                    a: '* Truly unlimited — no caps on donors, volunteers, events, transactions, or users\n* Flat-rate payments with no per-transaction platform fees\n* 9 modules in one login — not 9 separate subscriptions\n* Built exclusively for nonprofits, not adapted from for-profit tools\n* Your data is fully isolated — not shared in a multi-tenant pool',
+                    a: '* Truly unlimited – no caps on donors, volunteers, events, transactions, or users\n* Flat-rate payments with no per-transaction platform fees\n* 9 modules in one login – not 9 separate subscriptions\n* Built exclusively for nonprofits, not adapted from for-profit tools\n* Your data is fully isolated – not shared in a multi-tenant pool',
                 },
                 {
                     q: 'Is HelpOne a new platform?',
@@ -39,7 +39,7 @@ export default function FAQPage() {
                 },
                 {
                     q: 'Are there any hidden fees?',
-                    a: 'No — one flat monthly price covers unlimited users, records, transactions, and features. No per-seat, no per-transaction platform fees, no onboarding fees, and no contract lock-in.',
+                    a: 'No – one flat monthly price covers unlimited users, records, transactions, and features. No per-seat, no per-transaction platform fees, no onboarding fees, and no contract lock-in.',
                 },
                 {
                     q: "What's included in each tier?",
@@ -47,7 +47,7 @@ export default function FAQPage() {
                 },
                 {
                     q: 'Can I cancel at any time?',
-                    a: 'Yes — no contracts, no cancellation fees. You can cancel any time from your account settings.',
+                    a: 'Yes – no contracts, no cancellation fees. You can cancel any time from your account settings.',
                 },
             ],
         },
@@ -56,7 +56,7 @@ export default function FAQPage() {
             items: [
                 {
                     q: 'What payment processing options does HelpOne offer?',
-                    a: 'Two paths: Flat Rate ($1.75/tx + $15/mo) when you bring your own processor (BYOP) or IC+ Rate when HelpOne handles everything — interchange plus a small margin with no monthly fee. Both paths include text-to-give, QR codes, hosted pages, and embeddable forms.',
+                    a: 'Two paths: Flat Rate ($1.75/tx + $15/mo) when you bring your own processor (BYOP) or IC+ Rate when HelpOne handles everything – interchange plus a small margin with no monthly fee. Both paths include text-to-give, QR codes, hosted pages, and embeddable forms.',
                 },
                 {
                     q: 'How much will I save on fees?',
@@ -68,7 +68,7 @@ export default function FAQPage() {
                 },
                 {
                     q: 'Can I keep my current software and just switch payments?',
-                    a: 'Yes — use HelpOne payment links/QR codes or hosted pages. Paste them into your invoices or forms on any platform.',
+                    a: 'Yes – use HelpOne payment links/QR codes or hosted pages. Paste them into your invoices or forms on any platform.',
                 },
             ],
         },
@@ -77,7 +77,7 @@ export default function FAQPage() {
             items: [
                 {
                     q: 'Is everything really unlimited?',
-                    a: 'Yes — unlimited donors, volunteers, events, transactions, users, SMS, policies, reports, and more. No caps, no tiers that gate features.',
+                    a: 'Yes – unlimited donors, volunteers, events, transactions, users, SMS, policies, reports, and more. No caps, no tiers that gate features.',
                 },
                 {
                     q: 'Can I customize HelpOne?',
@@ -85,15 +85,15 @@ export default function FAQPage() {
                 },
                 {
                     q: 'What about white-labeling?',
-                    a: 'Available in the Scale tier — remove all HelpOne branding and use your own domain/logo/colors.',
+                    a: 'Available in the Scale tier – remove all HelpOne branding and use your own domain/logo/colors.',
                 },
                 {
                     q: 'Will future features be included?',
-                    a: 'Yes — AI tools, Impact Surveys, advanced analytics, and more are included at no extra cost as they launch.',
+                    a: 'Yes – AI tools, Impact Surveys, advanced analytics, and more are included at no extra cost as they launch.',
                 },
                 {
                     q: "Can I hide modules I don't use?",
-                    a: "Absolutely — from your dashboard settings, simply hide any module you don't currently need. They disappear from your navigation and can be re-enabled at any time.",
+                    a: "Absolutely – from your dashboard settings, simply hide any module you don't currently need. They disappear from your navigation and can be re-enabled at any time.",
                 },
             ],
         },
@@ -102,15 +102,15 @@ export default function FAQPage() {
             items: [
                 {
                     q: 'How secure is HelpOne?',
-                    a: 'Fully isolated, siloed databases — your data is yours alone. AES-256 encryption, mandatory 2FA, role-based access control, and regular third-party penetration testing.',
+                    a: 'Fully isolated, siloed databases – your data is yours alone. AES-256 encryption, mandatory 2FA, role-based access control, and regular third-party penetration testing.',
                 },
                 {
                     q: 'Is HelpOne compliant with IRS Form 990?',
-                    a: 'Yes — auto-track volunteer hours, donations, and in-kind contributions. Generate audit-ready reports that map directly to IRS Form 990 line items.',
+                    a: 'Yes – auto-track volunteer hours, donations, and in-kind contributions. Generate audit-ready reports that map directly to IRS Form 990 line items.',
                 },
                 {
                     q: 'Do you have a data breach plan?',
-                    a: 'Yes — immediate containment, personal notifications, full report, final findings & monitoring, and we hold full liability under our DPA.',
+                    a: 'Yes – immediate containment, personal notifications, full report, final findings & monitoring, and we hold full liability under our DPA.',
                 },
                 {
                     q: 'Are you SOC 2 and PCI compliant?',

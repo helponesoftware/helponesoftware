@@ -21,7 +21,7 @@ export default function FinanceFeatures() {
                             Unlike QuickBooks or Xero (capped features, per-transaction fees, no native nonprofit<br className="hidden xl:block" />
                             compliance), HelpOne gives you **unlimited** transactions, pre-built nonprofit chart of accounts,<br className="hidden xl:block" />
                             auto 990/CHAR500 population, real-time restricted funds tracking, and seamless integration with<br className="hidden xl:block" />
-                            Volunteer Management, Events, and Fundraising — all GAAP/FASB compliant.
+                            Volunteer Management, Events, and Fundraising – all GAAP/FASB compliant.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">

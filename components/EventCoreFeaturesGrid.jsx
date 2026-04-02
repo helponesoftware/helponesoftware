@@ -14,7 +14,7 @@ export default function EventCoreFeaturesGrid() {
                         Core Features. Pure Impact.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From recruitment to reporting — everything flows together.
+                        From recruitment to reporting – everything flows together.
                     </p>
                 </div>
 

@@ -14,10 +14,10 @@ export default function MyHelpOneCommandCenter() {
                 <div className="relative w-full rounded-[2rem] overflow-hidden mb-8 border border-white/10 aspect-video md:aspect-[21/9]">
                     <div className="absolute inset-0 bg-[#0A1428]">
                         <Image
-                            src="/assets/power.jpg"
+                            src="/assets/otherfiles/myHelpOne.png"
                             alt="Command Center Dashboard"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                         />
                     </div>
                 </div>

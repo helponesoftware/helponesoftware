@@ -14,7 +14,7 @@ export default function CoreFeaturesGrid() {
                         Core Features. Pure Impact.
                     </h2>
                     <p className="text-xl text-white/80 max-w-2xl mx-auto relative z-10">
-                        From recruitment to reporting — everything flows together.
+                        From recruitment to reporting – everything flows together.
                     </p>
                 </div>
 
@@ -92,7 +92,7 @@ export default function CoreFeaturesGrid() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4">Seamless Communication</h3>
                                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                                    Broadcast messages with personalized placeholders. Instant SMS & email. Track opens. All inside HelpOne — no more MailChimp juggling.
+                                    Broadcast messages with personalized placeholders. Instant SMS & email. Track opens. All inside HelpOne – no more MailChimp juggling.
                                 </p>
                                 <p className="text-[#00E6C3] font-semibold text-sm">
                                     Outcome: Higher engagement. Stronger community.

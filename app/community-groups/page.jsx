@@ -40,7 +40,7 @@ export default function CommunityGroupsPage() {
                 badge="Who It's For • Community Groups"
                 title="Community Groups."
                 titleAccent="Stronger Together."
-                subtitle="The all-in-one platform built for neighborhood associations, civic clubs, parent groups, hobby organizations, and local community groups. Unlimited volunteer coordination, event management, member communication, and fundraising — so you can focus on building stronger neighborhoods."
+                subtitle="The all-in-one platform built for neighborhood associations, civic clubs, parent groups, hobby organizations, and local community groups. Unlimited volunteer coordination, event management, member communication, and fundraising – so you can focus on building stronger neighborhoods."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

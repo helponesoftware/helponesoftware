@@ -1,7 +1,7 @@
 export default function FutureProof({
     title = "Even if you don't need every module today,",
     titleAccent = "you're still ready for tomorrow.",
-    description = "Start with only what you need. Simply hide the rest \u2014 they disappear from your dashboard."
+    description = "Start with only what you need. Simply hide the rest – they disappear from your dashboard."
 }) {
     return (
         <section className="py-12 md:py-24 bg-gradient-to-b from-black to-[#0A1428]">
@@ -35,12 +35,12 @@ export default function FutureProof({
                                     <div className="bg-white/5 rounded-2xl p-4 md:p-6 text-center opacity-40">
                                         <div className="text-3xl md:text-4xl mb-2 md:mb-3">💰</div>
                                         <div className="font-semibold text-sm md:text-base">Fundraising</div>
-                                        <div className="text-xs text-white/40 mt-1">HIDDEN — tap to activate</div>
+                                        <div className="text-xs text-white/40 mt-1">HIDDEN – tap to activate</div>
                                     </div>
                                     <div className="bg-white/5 rounded-2xl p-4 md:p-6 text-center opacity-40">
                                         <div className="text-3xl md:text-4xl mb-2 md:mb-3">📊</div>
                                         <div className="font-semibold text-sm md:text-base">Finances</div>
-                                        <div className="text-xs text-white/40 mt-1">HIDDEN — tap to activate</div>
+                                        <div className="text-xs text-white/40 mt-1">HIDDEN – tap to activate</div>
                                     </div>
                                 </div>
                                 <div className="mt-6 md:mt-10 text-center text-sm text-[#00E6C3] font-medium">Grow at your pace. One platform forever.</div>

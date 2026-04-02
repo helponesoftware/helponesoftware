@@ -25,7 +25,7 @@ export function ClaimFoundersButton({ className, children }) {
 
 export function WatchVideoButton({ className, children }) {
     return (
-        <Link href={CONTACT_URL} className={`${base} ${className}`}>
+        <Link href="/#video" className={`${base} ${className}`}>
             {children}
         </Link>
     );

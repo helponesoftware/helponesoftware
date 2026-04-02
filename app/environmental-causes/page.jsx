@@ -40,7 +40,7 @@ export default function EnvironmentalCausesPage() {
                 badge="Who It's For • Environmental Causes"
                 title="Environmental Causes."
                 titleAccent="Protecting Tomorrow, Today."
-                subtitle="The all-in-one platform built for conservation groups, climate action organizations, and wildlife protection nonprofits. Unlimited volunteer coordination for cleanups and field work, event management, donor management, grant tracking, and equipment inventory — so you can focus on saving the planet."
+                subtitle="The all-in-one platform built for conservation groups, climate action organizations, and wildlife protection nonprofits. Unlimited volunteer coordination for cleanups and field work, event management, donor management, grant tracking, and equipment inventory – so you can focus on saving the planet."
              primaryCtaText="Schedule Free Demo" primaryCtaLink="/contact-us" secondaryCtaText="See Pricing" secondaryCtaLink="/pricing" />
 
             {/* TRUST BAR */}

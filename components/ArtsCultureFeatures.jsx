@@ -14,7 +14,7 @@ export default function ArtsCultureFeatures() {
                     {/* Right Column (Content) */}
                     <div data-aos="fade-left" className="md:col-span-7 lg:col-span-7">
                         <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
-                            From sold-out performances to blockbuster exhibitions, HelpOne removes the admin burden so artists, curators, and cultural leaders can focus on what they do best — inspiring communities. Unlimited everything. One flat price. No per-user fees.
+                            From sold-out performances to blockbuster exhibitions, HelpOne removes the admin burden so artists, curators, and cultural leaders can focus on what they do best – inspiring communities. Unlimited everything. One flat price. No per-record fees.
                         </p>
 
                         <div className="grid sm:grid-cols-2 gap-10 lg:gap-16">
