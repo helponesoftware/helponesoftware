@@ -18,11 +18,7 @@ export default function TrainingTrackingFeatures() {
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike limited LMS tools or scattered spreadsheets, HelpOne offers a centralized dashboard with<br className="hidden xl:block" />
-                            real-time status charts and upcoming deadlines. Unlimited trainings, participants, and supervisors<br className="hidden xl:block" />
-                            – no caps, no extra fees. Easy creation and assignment from any source (internal or external),<br className="hidden xl:block" />
-                            automated reminders, progress tracking, completion certificates, and one-click exports for grants<br className="hidden xl:block" />
-                            or audits.
+                            Unlike limited LMS tools or scattered spreadsheets, HelpOne offers a centralized dashboard with real-time status charts and upcoming deadlines. Unlimited trainings, participants, and supervisors – no caps, no extra fees. Easy creation and assignment from any source (internal or external), automated reminders, progress tracking, completion certificates, and one-click exports for grants or audits.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -31,8 +27,7 @@ export default function TrainingTrackingFeatures() {
                                     UNLIMITED SCALE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Add endless trainings, participants, or<br className="hidden xl:block" />
-                                    supervisors – no caps, no fees
+                                    Add endless trainings, participants, or supervisors – no caps, no fees
                                 </p>
                             </div>
                             <div>
@@ -40,8 +35,7 @@ export default function TrainingTrackingFeatures() {
                                     CENTRALIZED HUB
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Organize all your favorite external platforms in<br className="hidden xl:block" />
-                                    one secure spot
+                                    Organize all your favorite external platforms in one secure spot
                                 </p>
                             </div>
                         </div>

@@ -25,8 +25,7 @@ export default function DonorsContactsFeatures() {
                                     UNLIMITED SCALE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    No contact caps. No vendor limits. Add as<br className="hidden xl:block" />
-                                    many records as your mission demands.
+                                    No contact caps. No vendor limits. Add as many records as your mission demands.
                                 </p>
                             </div>
                             <div>
@@ -34,8 +33,7 @@ export default function DonorsContactsFeatures() {
                                     NONPROFIT-FIRST
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Seamless integration with events, fundraising,<br className="hidden xl:block" />
-                                   and finance for real-time insights.
+                                    Seamless integration with events, fundraising, and finance for real-time insights.
                                 </p>
                             </div>
                         </div>

@@ -18,10 +18,7 @@ export default function ItAssetTrackingFeatures() {
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike generic spreadsheets or capped tools like Snipe-IT and Asset Panda, HelpOne delivers a<br className="hidden xl:block" />
-                            centralized dashboard with real-time charts, budget meters, and condition tracking. Unlimited<br className="hidden xl:block" />
-                            hardware/software inventory, vendor management, license/warranty tracking, user assignments,<br className="hidden xl:block" />
-                            and expiration alerts – all in one secure, siloed platform built exclusively for nonprofits.
+                            Unlike generic spreadsheets or capped tools like Snipe-IT and Asset Panda, HelpOne delivers a centralized dashboard with real-time charts, budget meters, and condition tracking. Unlimited hardware/software inventory, vendor management, license/warranty tracking, user assignments, and expiration alerts – all in one secure, siloed platform built exclusively for nonprofits.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -30,8 +27,7 @@ export default function ItAssetTrackingFeatures() {
                                     UNLIMITED SCALE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Endless assets, licenses, vendors – no per-<br className="hidden xl:block" />
-                                    asset fees
+                                    Endless assets, licenses, vendors – no per-asset fees
                                 </p>
                             </div>
                             <div>
@@ -39,8 +35,7 @@ export default function ItAssetTrackingFeatures() {
                                     CENTRALIZED HUB
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Unified hardware + software + vendor tracking<br className="hidden xl:block" />
-                                    with budget meters
+                                    Unified hardware + software + vendor tracking with budget meters
                                 </p>
                             </div>
                         </div>

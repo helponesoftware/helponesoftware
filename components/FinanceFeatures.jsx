@@ -18,10 +18,7 @@ export default function FinanceFeatures() {
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike QuickBooks or Xero (capped features, per-transaction fees, no native nonprofit<br className="hidden xl:block" />
-                            compliance), HelpOne gives you **unlimited** transactions, pre-built nonprofit chart of accounts,<br className="hidden xl:block" />
-                            auto 990/CHAR500 population, real-time restricted funds tracking, and seamless integration with<br className="hidden xl:block" />
-                            Volunteer Management, Events, and Fundraising – all GAAP/FASB compliant.
+                            Unlike QuickBooks or Xero (capped features, per-transaction fees, no native nonprofit compliance), HelpOne gives you <strong>unlimited</strong> transactions, pre-built nonprofit chart of accounts, auto 990/CHAR500 population, real-time restricted funds tracking, and seamless integration with Volunteer Management, Events, and Fundraising – all GAAP/FASB compliant.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -30,8 +27,7 @@ export default function FinanceFeatures() {
                                     TRULY UNLIMITED
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    No transaction caps. No per-record fees. No<br className="hidden xl:block" />
-                                    vendor limits. Ever.
+                                    No transaction caps. No per-record fees. No vendor limits. Ever.
                                 </p>
                             </div>
                             <div>
@@ -39,8 +35,7 @@ export default function FinanceFeatures() {
                                     AUTO 990 & CHAR500
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    One-click, auto-populated, FASB-compliant<br className="hidden xl:block" />
-                                    reports.
+                                    One-click, auto-populated, FASB-compliant reports.
                                 </p>
                             </div>
                         </div>

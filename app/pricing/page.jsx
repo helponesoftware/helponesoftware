@@ -32,10 +32,10 @@ export default function PricingPage() {
                 badge="Pricing • Unlimited for Every Mission"
                 title="Unlimited Everything."
                 titleAccent="One Simple Price."
-                subtitle="The only all-in-one nonprofit platform with truly unlimited users, records, transactions, events, custom fields, forms, reports, and more. No per-record fees. No hidden charges."
+                subtitle="The only all-in-one nonprofit platform with truly unlimited records, transactions, events, forms, reports, and more. No per-record fees. No hidden charges."
              primaryCtaText="Claim $499/mo Founders Rate" primaryCtaLink="/pricing" secondaryCtaText="Schedule Free Demo" secondaryCtaLink="/contact-us" />
 
-            <TrustBar items={['Unlimited Custom Fields & Reports', 'No Per-Transaction Fees', 'Full White-Label in Scale Tier', 'SOC 2 • PCI Level 1']} />
+            <TrustBar items={['Unlimited Forms & Reports', 'No Per-Transaction Fees', 'Full White-Label in Scale Tier', 'SOC 2 • PCI Level 1']} />
 
             {/* FOUNDERS RATE */}
             <section className="py-12 md:py-24 bg-[#0A1428]">
@@ -60,20 +60,20 @@ export default function PricingPage() {
                     </div>
                     <div className="grid md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
 
-                        {/* Founders / Beta */}
+                        {/* Founders Program */}
                         <div className="group module-card bg-white/5 rounded-3xl p-6 md:p-10 border-2 border-transparent hover:border-[#00E6C3] transition-colors flex flex-col">
                             <div className="text-[#00E6C3] text-sm font-medium mb-2 text-center">MOST POPULAR</div>
-                            <h3 className="text-2xl md:text-3xl font-semibold mb-1 text-center">Founders / Beta</h3>
+                            <h3 className="text-2xl md:text-3xl font-semibold mb-1 text-center">Founders Program</h3>
                             <div className="flex items-baseline justify-center gap-2">
                                 <span className="text-5xl md:text-6xl font-mono font-bold">$499</span>
                                 <span className="text-white/70">/month</span>
                             </div>
                             <div className="text-xs text-white/60 mb-6 md:mb-8 text-center">Locked for 12 months • 20% lifetime discount after</div>
                             <ul className="space-y-3 md:space-y-4 text-white/80 max-w-[260px] mx-auto flex-1">
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited users, records, events, transactions</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited custom fields, forms, and reports</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited records, events, transactions, forms and reports</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> 1-on-1 onboarding, priority support &amp; self-service onboarding</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Free migration &amp; setup done for you</li>
                                 <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> All 9 modules included</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Standard support &amp; self-service onboarding</li>
                             </ul>
                             <ClaimFoundersButton className="mt-6 md:mt-10 w-full py-4 md:py-5 bg-white text-[#0A1428] group-hover:bg-[#00E6C3] font-semibold rounded-2xl transition-colors">
                                 Claim Founders Rate
@@ -89,9 +89,11 @@ export default function PricingPage() {
                             </div>
                             <div className="text-xs text-white/60 mb-6 md:mb-8 text-center">After Founders period</div>
                             <ul className="space-y-3 md:space-y-4 text-white/80 max-w-[260px] mx-auto flex-1">
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Everything in Founders</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited records, events, transactions, forms and reports</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Standard support &amp; self-service onboarding</li>
                                 <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Guided onboarding (2–3 hours)</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Priority email support</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Paid optional migration &amp; setup assistance</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> All 9 modules included</li>
                             </ul>
                             <BookDemoButton className="mt-6 md:mt-10 w-full py-4 md:py-5 bg-white text-[#0A1428] group-hover:bg-[#00E6C3] font-semibold rounded-2xl transition-colors">
                                 Choose Growth
@@ -105,9 +107,9 @@ export default function PricingPage() {
                             <div className="text-xl md:text-2xl font-medium text-white/70 mb-6 md:mb-8 text-center">Custom Quote</div>
                             <ul className="space-y-3 md:space-y-4 text-white/80 max-w-[300px] mx-auto flex-1">
                                 <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Everything in Growth</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Full white-label branding– your logo, colors, and custom domain on every screen</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Dedicated account manager with priority phone &amp; video support</li>
-                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited custom development &amp; integrations</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Dedicated priority phone &amp; video support</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Full white-label branding– your logo and domain throughout</li>
+                                <li className="flex items-start gap-3"><span className="text-[#00E6C3] mt-1">✓</span> Unlimited custom development and integrations – tailored to your needs, with costs scaled to scope</li>
                             </ul>
                             <BookDemoButton className="mt-6 md:mt-10 w-full py-4 md:py-5 bg-white text-[#0A1428] group-hover:bg-[#00E6C3] font-semibold rounded-2xl transition-colors">
                                 Get Custom Scale Quote
@@ -127,7 +129,7 @@ export default function PricingPage() {
                     <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
                         <div className="bg-white/5 rounded-3xl p-6 md:p-10">
                             <ul className="space-y-4 md:space-y-6 text-white/80">
-                                <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited custom fields, forms, and reports</li>
+                                <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited forms and reports</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited donor, volunteer, and contact records</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited events, ticketing, and fundraising</li>
                                 <li className="flex gap-3 md:gap-4"><span className="text-[#00E6C3] text-xl md:text-2xl">✓</span> Unlimited transactions &amp; text-to-give</li>

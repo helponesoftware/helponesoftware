@@ -18,10 +18,7 @@ export default function PoliciesProceduresFeatures() {
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike scattered Google Docs, SharePoint, or expensive enterprise tools like NAVEX and<br className="hidden xl:block" />
-                            PolicyTech, HelpOne gives you living books with unlimited chapters, smart approval workflows,<br className="hidden xl:block" />
-                            automated notifications, professional PDF export, and deep native integration with HR Solutions,<br className="hidden xl:block" />
-                            Training Tracking, and Volunteer Management.
+                            Unlike scattered Google Docs, SharePoint, or expensive enterprise tools like NAVEX and PolicyTech, HelpOne gives you living books with unlimited chapters, smart approval workflows, automated notifications, professional PDF export, and deep native integration with HR Solutions, Training Tracking, and Volunteer Management.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -30,8 +27,7 @@ export default function PoliciesProceduresFeatures() {
                                     LIVING DOCUMENTS
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Unlimited books, chapters, and sections with<br className="hidden xl:block" />
-                                    rich text, images, and real-time updates
+                                    Unlimited books, chapters, and sections with rich text, images, and real-time updates
                                 </p>
                             </div>
                             <div>
@@ -39,8 +35,7 @@ export default function PoliciesProceduresFeatures() {
                                     AUTO COMPLIANCE
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Audit-ready PDFs, version control, role-based<br className="hidden xl:block" />
-                                    access, and seamless 990/HR tie-in
+                                    Audit-ready PDFs, version control, role-based access, and seamless 990/HR tie-in
                                 </p>
                             </div>
                         </div>

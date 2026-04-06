@@ -27,7 +27,7 @@ export default function GettingStartedTimeline() {
 
                     {/* Week 3-4 */}
                     <div>
-                        <h3 className="text-[#00E6C3] text-5xl md:text-7xl font-medium mb-6 tracking-tight leading-[1.1]">Week 3-<br />4</h3>
+                        <h3 className="text-[#00E6C3] text-5xl md:text-7xl font-medium mb-6 tracking-tight leading-[1.1]">Week 3-4</h3>
                         <p className="text-white text-lg font-medium leading-relaxed">
                             Full adoption • Real-time insights •<br className="hidden md:block" /> Your specialist check-in
                         </p>

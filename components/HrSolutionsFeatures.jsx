@@ -17,15 +17,11 @@ export default function HrSolutionsFeatures() {
 
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
+                        <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-6">
+                            Most nonprofit leaders struggle with fragmented HR systems that treat staff and volunteers as separate worlds and leave compliance as an afterthought. Unlike BambooHR or Gusto (capped features, separate volunteer tools, no 990 integration), HelpOne gives you <strong>unlimited staff + volunteers</strong> in one system, volunteer-staff unity, auto Form 990 compliance with volunteer hour valuation, self-service portal for both, and deep native integration across the entire HelpOne OS.
+                        </p>
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Most nonprofit leaders struggle with fragmented HR systems that treat staff and volunteers as<br className="hidden xl:block" />
-                            separate worlds and leave compliance as an afterthought. Unlike BambooHR or Gusto (capped<br className="hidden xl:block" />
-                            features, separate volunteer tools, no 990 integration), HelpOne gives you **unlimited staff +<br className="hidden xl:block" />
-                            volunteers** in one system, volunteer-staff unity, auto Form 990 compliance with volunteer hour<br className="hidden xl:block" />
-                            valuation, self-service portal for both, and deep native integration across the entire HelpOne OS.<br className="hidden xl:block" />
-                            From seamless onboarding and performance reviews to training tracking, policy management,<br className="hidden xl:block" />
-                            time-off requests, and compensation planning – everything is built for nonprofit realities with full<br className="hidden xl:block" />
-                            audit-ready compliance.
+                            From seamless onboarding and performance reviews to training tracking, policy management, time-off requests, and compensation planning – everything is built for nonprofit realities with full audit-ready compliance.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 md:gap-16">
@@ -34,8 +30,7 @@ export default function HrSolutionsFeatures() {
                                     VOLUNTEER-STAFF UNITY
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    One platform for both – shared training,<br className="hidden xl:block" />
-                                    policies, reviews, time-off
+                                    One platform for both – shared training, policies, reviews, time-off
                                 </p>
                             </div>
                             <div>
@@ -43,8 +38,7 @@ export default function HrSolutionsFeatures() {
                                     TRULY UNLIMITED
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    No user caps, no per-record fees, no separate<br className="hidden xl:block" />
-                                    volunteer system
+                                    No user caps, no per-record fees, no separate volunteer system
                                 </p>
                             </div>
                         </div>

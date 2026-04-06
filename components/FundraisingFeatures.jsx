@@ -18,8 +18,7 @@ export default function FundraisingFeatures() {
                     {/* Right Column (Content) */}
                     <div className="lg:col-span-7">
                         <p className="text-base md:text-[17px] text-white/90 leading-relaxed mb-12">
-                            Unlike Bloomerang or Classy (per-record fees, caps, silos), HelpOne gives you **unlimited**<br className="hidden xl:block" />
-                            donors, sponsors, vendors, gifts – with real-time P&L, auto volunteer hour valuation for your 990,<br className="hidden xl:block" />
+                            Unlike Bloomerang or Classy (per-record fees, caps, silos), HelpOne gives you <strong>unlimited</strong> donors, sponsors, vendors, gifts – with real-time P&L, auto volunteer hour valuation for your 990,
                             and deep native integrations across the entire platform. No barriers. No upsells. Just impact.
                         </p>
 
@@ -29,7 +28,7 @@ export default function FundraisingFeatures() {
                                     TRULY UNLIMITED
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    No donor caps. No per-event fees. No vendor<br className="hidden xl:block" />
+                                    No donor caps. No per-event fees. No vendor
                                     limits. Ever.
                                 </p>
                             </div>
@@ -38,7 +37,7 @@ export default function FundraisingFeatures() {
                                     REAL-TIME P&L + 990 READY
                                 </h3>
                                 <p className="text-white/70 text-base leading-relaxed text-left">
-                                    Live fundraising counts, auto volunteer<br className="hidden xl:block" />
+                                    Live fundraising counts, auto volunteer
                                     valuation, instant reports.
                                 </p>
                             </div>
