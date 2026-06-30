@@ -21,7 +21,6 @@ export default function sitemap() {
         '/fundraising',
         '/getting-started',
         '/hr-solutions',
-        '/it-asset-tracking-management',
         '/my-helpone',
         '/participants',
         '/partners',

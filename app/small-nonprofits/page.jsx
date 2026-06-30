@@ -28,7 +28,7 @@ const smallNonprofitModules = [
     { emoji: '👔', color: 'bg-sky-500', title: 'HR Solutions', desc: 'Onboarding, reviews, time-off, nonprofit-specific.', href: 'https://helponesoftware.com/hr-solutions/' },
     { emoji: '📜', color: 'bg-purple-500', title: 'Policies & Procedures', desc: 'Living books, approvals, instant PDF export.', href: 'https://helponesoftware.com/policies-and-procedures/' },
     { emoji: '📚', color: 'bg-orange-500', title: 'Training Tracking', desc: 'Assignments, reminders, progress dashboards.', href: 'https://helponesoftware.com/training-tracking/' },
-    { emoji: '💻', color: 'bg-cyan-500', title: 'IT Asset Tracking', desc: 'Hardware, licenses, vendors, budget tracking.', href: 'https://helponesoftware.com/it-asset-tracking-management/' },
+    { emoji: '💻', color: 'bg-cyan-500', title: 'Participant Breakdown', desc: 'Engagement scoring + real-time segmentation, Activity Breakdown, Instant insights at your fingertips.', href: 'https://helponesoftware.com/participants' },
 ];
 
 export default function SmallNonprofitsPage() {

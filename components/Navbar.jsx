@@ -146,7 +146,6 @@ export default function Navbar() {
                                     <Link href="/hr-solutions" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">HR Solutions</Link>
                                     <Link href="/policies-and-procedures" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Policies &amp; Procedures</Link>
                                     <Link href="/training-tracking" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Training Tracking</Link>
-                                    <Link href="/it-asset-tracking-management" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">IT Asset Tracking</Link>
                                     <Link href="/my-helpone" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">My HelpOne</Link>
                                     <Link href="/getting-started" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Getting Started</Link>
                                 </div>
@@ -281,7 +280,6 @@ export default function Navbar() {
                                         <Link href="/hr-solutions" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">HR Solutions</Link>
                                         <Link href="/policies-and-procedures" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Policies &amp; Procedures</Link>
                                         <Link href="/training-tracking" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Training Tracking</Link>
-                                        <Link href="/it-asset-tracking-management" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">IT Asset Tracking</Link>
                                         <Link href="/my-helpone" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">My HelpOne</Link>
                                         <Link href="/getting-started" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Getting Started</Link>
                                     </div>

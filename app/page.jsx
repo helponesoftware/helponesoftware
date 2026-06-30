@@ -199,6 +199,18 @@ export default function HomePage() {
                                     <span className="text-[#00E6C3]">✓</span>
                                     <span className="text-white/90">1-on-1 onboarding</span>
                                 </div>
+                                <div className="flex gap-3">
+                                    <span className="text-[#00E6C3]">✓</span>
+                                    <span className="text-white/90">Direct access to our team</span>
+                                </div>
+                                <div className="flex gap-3">
+                                    <span className="text-[#00E6C3]">✓</span>
+                                    <span className="text-white/90">Priority Support</span>
+                                </div>
+                                <div className="flex gap-3">
+                                    <span className="text-[#00E6C3]">✓</span>
+                                    <span className="text-white/90">Influence the roadmap</span>
+                                </div>
                             </div>
                         </div>
 

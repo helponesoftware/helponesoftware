@@ -36,7 +36,6 @@ export default function Footer() {
                             <Link href="/hr-solutions" className="block hover:text-white">HR Solutions</Link>
                             <Link href="/policies-and-procedures" className="block hover:text-white">Policies &amp; Procedures</Link>
                             <Link href="/training-tracking" className="block hover:text-white">Training Tracking</Link>
-                            <Link href="/it-asset-tracking-management" className="block hover:text-white">IT Asset Tracking</Link>
                             <Link href="/payments" className="block hover:text-white">Payments</Link>
                             <Link href="/switching-to-helpone-payments" className="block hover:text-white">Switching to HelpOne Payments</Link>
                         </div>
