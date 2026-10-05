@@ -35,7 +35,8 @@ export default function HomePage() {
                 badge="Founders Beta • Lock in lifetime pricing before it’s gone"
                 title="One Platform."
                 titleAccent="Unlimited Missions."
-                subtitle="The cheapest way to run your entire nonprofit including payments."
+                subtitle="You took this job for the mission, not for eight logins and a Tuesday-night spreadsheet. HelpOne brings volunteers, donors, events, finances and payments into one place, so you can set the weight down."
+                microLine="Flat monthly price · Unlimited everything · Payments built in · Free migration"
                 primaryCtaText="Book a free demo"
                 secondaryCtaText="Watch our 2-min product walkthrough"
                 secondaryCtaLink="/#video"
@@ -48,7 +49,10 @@ export default function HomePage() {
                 <div className="max-w-screen-2xl mx-auto px-4 md:px-6">
                     <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-center">
                         <div className="md:col-span-5" data-aos="fade-right">
-                            <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-none tracking-tighter">The problem most nonprofits face – You&apos;re probably using 5–8 different tools that don&apos;t talk to each other.</h2>
+                            <h2 className="heading-font text-3xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-none tracking-tighter">It&apos;s 10:40 on a Tuesday. You&apos;re still here.</h2>
+                            <p className="text-white/70 mt-6 text-base md:text-lg leading-relaxed">
+                                Sign-ups in one tool, hours in another, donors in a third, money in QuickBooks, and a spreadsheet that holds it all together that lives with <em>you</em>. None of these tools are bad. They just don&apos;t talk to each other, so you do the talking.
+                            </p>
                         </div>
                         <div className="md:col-span-7 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
                             <div className="bg-white/5 p-5 md:p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
@@ -68,6 +72,11 @@ export default function HomePage() {
                             </div>
                         </div>
                     </div>
+                    <p className="mt-10 md:mt-12 text-center text-white/80 text-base md:text-lg" data-aos="fade-up">
+                        <Link href="/back-to-mission" className="hover:text-[#00E6C3] transition-colors underline-offset-4 hover:underline">
+                            The guilt belongs to the gap, not to you.
+                        </Link>
+                    </p>
                 </div>
             </section>
             {/* HELPONE BRINGS IT TOGETHER */}
@@ -156,7 +165,7 @@ export default function HomePage() {
             </section>
 
             {/* 9 POWERFUL MODULES */}
-            <ModulesGrid title="9 Powerful Modules. One platform." />
+            <ModulesGrid title="10 Powerful Modules. One platform." />
 
             {/* FUTURE-PROOF */}
             <FutureProof />
@@ -228,9 +237,9 @@ export default function HomePage() {
 
             {/* FINAL CTA */}
             <CtaBanner
-                title="Ready to see if HelpOne is a fit for your organization?"
-                subtitle="Book a free personalized demo today."
-                buttonText="Book Free Demo"
+                title="Set it down."
+                subtitle="Thirty minutes. Show us what you're juggling and we'll show you what it looks like in one place. If it's not a fit, we'll tell you."
+                buttonText="Book a free demo"
             />
         </>
     );

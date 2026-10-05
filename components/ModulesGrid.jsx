@@ -5,6 +5,7 @@ export default function ModulesGrid({ modules, title, subtitle }) {
         { emoji: '👥', color: 'bg-[#00E6C3]', title: 'Volunteer Management', desc: 'Self-service portal, QR check-ins, skill matching, hours tracking that auto-feeds your 990.', href: '/volunteer-management' },
         { emoji: '🎟️', color: 'bg-violet-500', title: 'Event Management', desc: 'Unified hub, dynamic ticketing, multi-day schedules, volunteer sync.', href: '/event-management' },
         { emoji: '💰', color: 'bg-amber-500', title: 'Fundraising', desc: 'Auctions, pledges, donations, contests, sponsorships.', href: '/fundraising' },
+        { emoji: '🏛️', color: 'bg-indigo-500', title: 'Board Management', desc: 'Roster, committees, meetings, documents, votes, COI compliance & board portal.', href: '/board-management' },
         { emoji: '📇', color: 'bg-emerald-500', title: 'Donors & Contacts', desc: 'Rich profiles, history, smart folders, custom blasts.', href: '/donors-and-contacts' },
         { emoji: '📊', color: 'bg-rose-500', title: 'Finances', desc: 'GAAP charts, auto 990 & CHAR500, restricted funds.', href: '/finances' },
         { emoji: '👔', color: 'bg-sky-500', title: 'HR Solutions', desc: 'Onboarding, reviews, time-off, nonprofit-specific.', href: '/hr-solutions' },
@@ -14,7 +15,7 @@ export default function ModulesGrid({ modules, title, subtitle }) {
     ];
 
     const displayModules = modules || defaultModules;
-    const displayTitle = title || <>9 Powerful Modules.<br />One breathtaking platform.</>;
+    const displayTitle = title || <>10 Powerful Modules.<br />One breathtaking platform.</>;
 
     return (
         <section id="modules" className="py-12 md:py-24 bg-[#0A1428]">

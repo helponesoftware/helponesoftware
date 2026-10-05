@@ -5,6 +5,7 @@ export default function Hero({
     title,
     titleAccent,
     subtitle,
+    microLine,
     primaryCtaText = "Schedule Free Demo",
     primaryCtaLink = "/contact-us",
     secondaryCtaText = "Claim Founders Rate – $499/mo forever",
@@ -38,8 +39,13 @@ export default function Hero({
                         )}
                     </h1>
                     {subtitle && (
-                        <p data-aos="fade-up" data-aos-delay="200" className="text-xl md:text-2xl text-white/80 max-w-2xl mb-12 text-left">
+                        <p data-aos="fade-up" data-aos-delay="200" className={`text-xl md:text-2xl text-white/80 max-w-2xl text-left ${microLine ? 'mb-6' : 'mb-12'}`}>
                             {subtitle}
+                        </p>
+                    )}
+                    {microLine && (
+                        <p data-aos="fade-up" data-aos-delay="250" className="text-sm md:text-base text-white/60 max-w-2xl mb-12 text-left tracking-wide">
+                            {microLine}
                         </p>
                     )}
 
