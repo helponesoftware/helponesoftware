@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpOne vs Competitors | DonorDock, Bloomerang, Little Green Light, Salesforce, VolunteerHub & WildApricot</title>
+    <meta name="description" content="See why nonprofits are switching from DonorDock, Bloomerang, Little Green Light, Salesforce Nonprofit Cloud, VolunteerHub, and WildApricot to HelpOne — the all-in-one platform with transparent pricing, free migration, and zero tool sprawl.">
+    <link rel="canonical" href="https://helponesoftware.com/compare/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0A1428 0%, #1A2338 100%); }
+        .module-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .module-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -12px rgb(0 230 195 / 0.25); }
+        .nav-link { position: relative; }
+        .nav-link:after { content: ''; position: absolute; width: 0; height: 2px; bottom: -2px; left: 0; background-color: #00E6C3; transition: width 0.3s ease; }
+        .nav-link:hover:after { width: 100%; }
+        .dropdown { position: relative; }
+        .dropdown-content { 
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            background-color: #0A1428; 
+            border: 1px solid rgba(255,255,255,0.1); 
+            border-radius: 24px; 
+            padding: 24px; 
+            width: 520px; 
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); 
+            z-index: 50; 
+        }
+        .dropdown:hover .dropdown-content { display: block; }
+        #mobile-menu { 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1); 
+            opacity: 0; 
+        }
+        #mobile-menu.show { 
+            max-height: 100vh; 
+            opacity: 1; 
+        }
+        .mobile-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.75);
+            z-index: 40;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .mobile-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+        .check { color: #00E6C3; }
+        .cross { color: #ef4444; }
+        .partial { color: #f59e0b; }
+    </style>
+</head>
+<body class="bg-[#0A1428] text-white overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-[#0A1428]/95 backdrop-blur-lg border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-[#00E6C3] rounded-2xl flex items-center justify-center text-[#0A1428] font-bold text-2xl">H</div>
+                <span class="heading-font text-3xl font-semibold tracking-tighter">HelpOne</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Platform <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content">
+                        <div class="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
+                            <a href="/volunteer-management/" class="hover:text-[#00E6C3]">Volunteer Management</a>
+                            <a href="/event-management/" class="hover:text-[#00E6C3]">Event Management</a>
+                            <a href="/fundraising/" class="hover:text-[#00E6C3]">Fundraising</a>
+                            <a href="/participants/" class="hover:text-[#00E6C3]">Participants</a>
+                            <a href="/donors-and-contacts/" class="hover:text-[#00E6C3]">Donors & Contacts</a>
+                            <a href="/finances/" class="hover:text-[#00E6C3]">Finances</a>
+                            <a href="/hr-solutions/" class="hover:text-[#00E6C3]">HR Solutions</a>
+                            <a href="/policies-and-procedures/" class="hover:text-[#00E6C3]">Policies & Procedures</a>
+                            <a href="/training-tracking/" class="hover:text-[#00E6C3]">Training Tracking</a>
+                            <a href="/it-asset-tracking-management/" class="hover:text-[#00E6C3]">IT Asset Tracking</a>
+                            <a href="/payments/" class="hover:text-[#00E6C3]">Payments</a>
+                            <a href="/switching-to-helpone-payments/" class="hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+                            <a href="/my-helpone/" class="hover:text-[#00E6C3]">My HelpOne</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Who It’s For <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-80">
+                        <a href="/faith-communities/" class="block py-2 hover:text-[#00E6C3]">Faith Communities</a>
+                        <a href="/schools-youth/" class="block py-2 hover:text-[#00E6C3]">Schools & Youth</a>
+                        <a href="/animal-rescues/" class="block py-2 hover:text-[#00E6C3]">Animal Rescues</a>
+                        <a href="/arts-culture/" class="block py-2 hover:text-[#00E6C3]">Arts & Culture</a>
+                        <a href="/community-groups/" class="block py-2 hover:text-[#00E6C3]">Community Groups</a>
+                        <a href="/small-nonprofits/" class="block py-2 hover:text-[#00E6C3]">Small Nonprofits</a>
+                        <a href="/environmental-causes/" class="block py-2 hover:text-[#00E6C3]">Environmental Causes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Payments <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-80">
+                        <a href="/payments/" class="block py-2 hover:text-[#00E6C3]">Payments</a>
+                        <a href="/switching-to-helpone-payments/" class="block py-2 hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+                    </div>
+                </div>
+                <a href="/pricing/" class="nav-link">Pricing</a>
+                <a href="/getting-started/" class="nav-link">Getting Started</a>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Company <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-64">
+                        <a href="/faqs/" class="block py-2 hover:text-[#00E6C3]">FAQs</a>
+                        <a href="/about-us/" class="block py-2 hover:text-[#00E6C3]">About Us</a>
+                        <a href="/partners/" class="block py-2 hover:text-[#00E6C3]">Partners</a>
+                        <a href="/affiliate/" class="block py-2 hover:text-[#00E6C3]">Affiliate Program</a>
+                        <a href="/security/" class="block py-2 hover:text-[#00E6C3]">Security</a>
+                        <a href="/terms-and-conditions/" class="block py-2 hover:text-[#00E6C3]">Terms & Conditions</a>
+                        <a href="/privacy-policy/" class="block py-2 hover:text-[#00E6C3]">Privacy Policy</a>
+                        <a href="/contact-us/" class="block py-2 hover:text-[#00E6C3]">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-4">
+                <button onclick="showDemoModal()" class="px-6 py-3 text-sm font-semibold border border-white/30 hover:border-white rounded-2xl transition-all">Watch 2-min video</button>
+                <button onclick="bookDemo()" class="px-8 py-3 bg-[#00E6C3] hover:bg-[#00E6C3]/90 text-[#0A1428] font-semibold rounded-2xl flex items-center gap-2 transition-all">
+                    <i class="fas fa-calendar"></i> Book Free Demo
+                </button>
+            </div>
+            <button id="hamburger" class="md:hidden text-3xl p-2">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-backdrop" class="mobile-backdrop" onclick="closeMobileMenu()"></div>
+        <div id="mobile-menu" class="bg-[#0A1428] border-t border-white/10 px-6 py-8 text-lg">
+            <div class="flex justify-end mb-6">
+                <button onclick="closeMobileMenu()" class="text-4xl text-white/70 hover:text-white">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="flex flex-col gap-6">
+                <a href="/volunteer-management/" class="hover:text-[#00E6C3]">Volunteer Management</a>
+                <a href="/event-management/" class="hover:text-[#00E6C3]">Event Management</a>
+                <a href="/fundraising/" class="hover:text-[#00E6C3]">Fundraising</a>
+                <a href="/participants/" class="hover:text-[#00E6C3]">Participants</a>
+                <a href="/donors-and-contacts/" class="hover:text-[#00E6C3]">Donors & Contacts</a>
+                <a href="/finances/" class="hover:text-[#00E6C3]">Finances</a>
+                <a href="/pricing/" class="hover:text-[#00E6C3]">Pricing</a>
+                <a href="/getting-started/" class="hover:text-[#00E6C3]">Getting Started</a>
+                <a href="/contact-us/" class="hover:text-[#00E6C3]">Contact Us</a>
+                <button onclick="bookDemo()" class="mt-4 px-8 py-4 bg-[#00E6C3] text-[#0A1428] font-semibold rounded-2xl">Book Free Demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-bg min-h-[70vh] flex items-center relative">
+        <div class="absolute inset-0 bg-[url('https://picsum.photos/id/1015/2000/1200')] bg-cover opacity-10"></div>
+        <div class="max-w-screen-2xl mx-auto px-6 pt-20 pb-16 relative z-10">
+            <div class="max-w-4xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-8">
+                    <span class="font-medium">Compare • Why Switch</span>
+                </div>
+                <h1 class="heading-font text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tighter mb-6">
+                    Stop Paying for<br>
+                    <span class="text-[#00E6C3]">Fragmented Tools</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-white/80 max-w-2xl mb-8">
+                    DonorDock, Bloomerang, Little Green Light, Salesforce, VolunteerHub, and WildApricot each solve part of the puzzle. HelpOne solves the whole thing — at a fraction of the total cost and complexity.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button onclick="bookDemo()" class="px-10 py-6 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-xl font-semibold rounded-3xl flex items-center gap-4 group">
+                        Book Free Demo <span class="text-3xl group-hover:rotate-45 transition-transform">→</span>
+                    </button>
+                    <a href="#comparison" class="px-10 py-6 border-2 border-white/80 hover:border-[#00E6C3] text-xl font-semibold rounded-3xl transition-all text-center">
+                        See the Full Comparison
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REAL COST OF OWNERSHIP (FIXED SPACING) -->
+    <section id="comparison" class="py-24 bg-[#0A1428]">
+        <div class="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-4">Real Cost of Ownership</h2>
+                <p class="text-xl text-white/70 max-w-3xl mx-auto">What you actually pay when you add up the pieces most nonprofits need.</p>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03]">
+                <div class="min-w-[900px] p-4 sm:p-6">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="border-b border-white/20">
+                                <th class="py-5 pr-6 text-sm font-medium text-white/60">Platform</th>
+                                <th class="py-5 px-4 text-sm font-medium text-white/60 text-center">Starting Price</th>
+                                <th class="py-5 px-4 text-sm font-medium text-white/60 text-center">Typical Mid-Size Cost</th>
+                                <th class="py-5 px-4 text-sm font-medium text-white/60 text-center">Key Limitations</th>
+                                <th class="py-5 px-4 text-sm font-medium text-[#00E6C3] text-center">HelpOne Advantage</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm">
+                            <tr class="border-b border-white/10 bg-[#00E6C3]/10">
+                                <td class="py-5 pr-6 font-semibold text-[#00E6C3]">HelpOne</td>
+                                <td class="py-5 px-4 text-center font-mono">$499/mo</td>
+                                <td class="py-5 px-4 text-center font-mono">$499–$599/mo</td>
+                                <td class="py-5 px-4 text-center text-white/70">None — full platform included</td>
+                                <td class="py-5 px-4 text-center text-[#00E6C3] font-medium">All-in-one • Free migration • No add-ons</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">DonorDock</td>
+                                <td class="py-5 px-4 text-center font-mono">$500/mo</td>
+                                <td class="py-5 px-4 text-center font-mono">$500 + $3,800 setup</td>
+                                <td class="py-5 px-4 text-center text-white/70">Limited volunteers, events, finance, HR</td>
+                                <td class="py-5 px-4 text-center text-white/50">Still need extra tools</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">Bloomerang</td>
+                                <td class="py-5 px-4 text-center font-mono">$125+/mo CRM</td>
+                                <td class="py-5 px-4 text-center font-mono">$250–$500+/mo</td>
+                                <td class="py-5 px-4 text-center text-white/70">Modules sold separately • Contact-based pricing</td>
+                                <td class="py-5 px-4 text-center text-white/50">Fragmented + growing cost</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">Little Green Light</td>
+                                <td class="py-5 px-4 text-center font-mono">$45/mo</td>
+                                <td class="py-5 px-4 text-center font-mono">$75–$150/mo</td>
+                                <td class="py-5 px-4 text-center text-white/70">Basic CRM only • Weak events/volunteers/finance</td>
+                                <td class="py-5 px-4 text-center text-white/50">Outgrown quickly</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">Salesforce Nonprofit Cloud</td>
+                                <td class="py-5 px-4 text-center font-mono">$60–$100/user</td>
+                                <td class="py-5 px-4 text-center font-mono">$30k–$100k+ setup</td>
+                                <td class="py-5 px-4 text-center text-white/70">Complex • Consultant-heavy • Slow</td>
+                                <td class="py-5 px-4 text-center text-white/50">Overkill for most orgs</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">VolunteerHub</td>
+                                <td class="py-5 px-4 text-center font-mono">$143–$288/mo</td>
+                                <td class="py-5 px-4 text-center font-mono">$200–$400+/mo</td>
+                                <td class="py-5 px-4 text-center text-white/70">Volunteers only • No full CRM/finance</td>
+                                <td class="py-5 px-4 text-center text-white/50">Still need 2–3 other systems</td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-5 pr-6 font-medium">WildApricot</td>
+                                <td class="py-5 px-4 text-center font-mono">$60–$66/mo</td>
+                                <td class="py-5 px-4 text-center font-mono">$140–$440+/mo</td>
+                                <td class="py-5 px-4 text-center text-white/70">Contact-based pricing • Membership-focused • Weak finances/HR</td>
+                                <td class="py-5 px-4 text-center text-white/50">Price rises with every contact</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p class="text-center text-white/50 text-sm mt-8">Pricing based on publicly available information as of 2026. Actual costs vary by size and add-ons.</p>
+        </div>
+    </section>
+
+    <!-- FEATURE MATRIX -->
+    <section class="py-24 bg-black">
+        <div class="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-4">What You Actually Get</h2>
+                <p class="text-xl text-white/70">One platform vs. stitching multiple tools together.</p>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03]">
+                <div class="min-w-[1000px] p-4 sm:p-6">
+                    <table class="w-full text-sm text-left">
+                        <thead>
+                            <tr class="border-b border-white/20">
+                                <th class="py-5 pr-4 font-medium text-white/60">Capability</th>
+                                <th class="py-5 px-3 text-center text-[#00E6C3] font-semibold">HelpOne</th>
+                                <th class="py-5 px-3 text-center text-white/60">DonorDock</th>
+                                <th class="py-5 px-3 text-center text-white/60">Bloomerang</th>
+                                <th class="py-5 px-3 text-center text-white/60">LGL</th>
+                                <th class="py-5 px-3 text-center text-white/60">Salesforce</th>
+                                <th class="py-5 px-3 text-center text-white/60">VolunteerHub</th>
+                                <th class="py-5 px-3 text-center text-white/60">WildApricot</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Donor CRM & Contacts</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Volunteer Management</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Event Management</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Fundraising & Online Giving</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Native Finances + Auto 990 / CHAR500</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">HR / Staff Management</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Policies & Training Tracking</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">IT Asset Tracking</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                            </tr>
+                            <tr class="border-b border-white/10">
+                                <td class="py-4 pr-4">Free Data Migration</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 pr-4">White-Glove Onboarding</td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-check check text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-times cross text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                                <td class="py-4 px-3 text-center"><i class="fas fa-minus partial text-xl"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8 mt-10 text-sm text-white/60">
+                <div class="flex items-center gap-2"><i class="fas fa-check check"></i> Full / Native</div>
+                <div class="flex items-center gap-2"><i class="fas fa-minus partial"></i> Limited or Add-on</div>
+                <div class="flex items-center gap-2"><i class="fas fa-times cross"></i> Not Available</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRAGMENTATION SECTION -->
+    <section class="py-24 bg-[#0A1428]">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-4">The Real Cost of Tool Sprawl</h2>
+                <p class="text-xl text-white/70 max-w-3xl mx-auto">Most nonprofits end up with 3–5 separate systems. Here’s what that actually costs.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-5xl mb-6">💸</div>
+                    <h3 class="text-2xl font-semibold mb-4">Hidden Monthly Spend</h3>
+                    <p class="text-white/70 leading-relaxed">CRM + Volunteer tool + Event tool + Accounting + HR = $400–$900+/month before anyone logs in. HelpOne replaces the stack for one flat rate.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-5xl mb-6">🧩</div>
+                    <h3 class="text-2xl font-semibold mb-4">Data Silos Everywhere</h3>
+                    <p class="text-white/70 leading-relaxed">Donor history lives in one system, volunteer hours in another, finance in a third. Reporting becomes a weekly export-and-paste nightmare.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-5xl mb-6">⏳</div>
+                    <h3 class="text-2xl font-semibold mb-4">Staff Time Drain</h3>
+                    <p class="text-white/70 leading-relaxed">Training on multiple platforms, fixing broken integrations, and reconciling data steals hours every week that should go to the mission.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY HELPONE WINS -->
+    <section class="py-24 bg-black">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter">Why Teams Are Switching to HelpOne</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white/5 rounded-3xl p-10 border border-[#00E6C3]/30">
+                    <h3 class="text-2xl font-semibold mb-4 text-[#00E6C3]">One Login. Everything.</h3>
+                    <p class="text-white/80">Volunteers, donors, events, finances, HR, policies, training, and IT assets live in a single system. No more switching tabs or exporting CSVs.</p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-10 border border-[#00E6C3]/30">
+                    <h3 class="text-2xl font-semibold mb-4 text-[#00E6C3]">Transparent, Flat Pricing</h3>
+                    <p class="text-white/80">No per-contact fees, no per-user fees that punish growth, no surprise module charges. Founders Program locks in your rate for 12 months.</p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-10 border border-[#00E6C3]/30">
+                    <h3 class="text-2xl font-semibold mb-4 text-[#00E6C3]">Free Migration + White-Glove Support</h3>
+                    <p class="text-white/80">We move your data. We train your team. A dedicated specialist stays with you until you’re fully running — usually in 2–4 weeks.</p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-10 border border-[#00E6C3]/30">
+                    <h3 class="text-2xl font-semibold mb-4 text-[#00E6C3]">Built for Nonprofits, Not Forced Fit</h3>
+                    <p class="text-white/80">Restricted funds, auto 990/CHAR500, volunteer hour valuation, staff + volunteer unity — the things generic CRMs and membership tools force you to work around.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <div class="bg-[#00E6C3] text-[#0A1428] py-24 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-6">Ready to Simplify?</h2>
+            <p class="text-xl md:text-2xl mb-10">
+                Stop paying for five tools that only half-work together. Join the Founders Program and get the full platform, free migration, and a dedicated specialist.
+            </p>
+            <button onclick="bookDemo()" class="px-12 py-6 bg-[#0A1428] text-white text-xl font-semibold rounded-3xl hover:scale-105 transition-all">
+                Book Your Free Demo
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-20">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="grid md:grid-cols-5 gap-12">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-8 h-8 bg-[#00E6C3] rounded-2xl flex items-center justify-center text-[#0A1428] font-bold">H</div>
+                        <span class="heading-font text-3xl font-semibold tracking-tighter">HelpOne</span>
+                    </div>
+                    <p class="text-white/60 text-sm">The operating system for world-changing nonprofits.</p>
+                    <div class="mt-8 text-xs text-white/40">© 2026 HelpOne Software, Inc.</div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Platform</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/volunteer-management/" class="block hover:text-white">Volunteer Management</a>
+                        <a href="/event-management/" class="block hover:text-white">Event Management</a>
+                        <a href="/fundraising/" class="block hover:text-white">Fundraising</a>
+                        <a href="/participants/" class="block hover:text-white">Participants</a>
+                        <a href="/donors-and-contacts/" class="block hover:text-white">Donors & Contacts</a>
+                        <a href="/finances/" class="block hover:text-white">Finances</a>
+                        <a href="/hr-solutions/" class="block hover:text-white">HR Solutions</a>
+                        <a href="/policies-and-procedures/" class="block hover:text-white">Policies & Procedures</a>
+                        <a href="/training-tracking/" class="block hover:text-white">Training Tracking</a>
+                        <a href="/it-asset-tracking-management/" class="block hover:text-white">IT Asset Tracking</a>
+                        <a href="/payments/" class="block hover:text-white">Payments</a>
+                        <a href="/getting-started/" class="block hover:text-white">Getting Started</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Who It’s For</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/faith-communities/" class="block hover:text-white">Faith Communities</a>
+                        <a href="/schools-youth/" class="block hover:text-white">Schools & Youth</a>
+                        <a href="/animal-rescues/" class="block hover:text-white">Animal Rescues</a>
+                        <a href="/arts-culture/" class="block hover:text-white">Arts & Culture</a>
+                        <a href="/community-groups/" class="block hover:text-white">Community Groups</a>
+                        <a href="/small-nonprofits/" class="block hover:text-white">Small Nonprofits</a>
+                        <a href="/environmental-causes/" class="block hover:text-white">Environmental Causes</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Company</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/faqs/" class="block hover:text-white">FAQs</a>
+                        <a href="/about-us/" class="block hover:text-white">About Us</a>
+                        <a href="/partners/" class="block hover:text-white">Partners</a>
+                        <a href="/affiliate/" class="block hover:text-white">Affiliate Program</a>
+                        <a href="/security/" class="block hover:text-white">Security</a>
+                        <a href="/terms-and-conditions/" class="block hover:text-white">Terms & Conditions</a>
+                        <a href="/privacy-policy/" class="block hover:text-white">Privacy Policy</a>
+                        <a href="/contact-us/" class="block hover:text-white">Contact Us</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Get in touch</div>
+                    <div class="text-sm text-white/70 mb-6">hello@helponesoftware.com</div>
+                    <button onclick="bookDemo()" class="w-full py-4 border border-white/30 hover:bg-white/10 rounded-2xl text-sm font-medium">
+                        Book a Free Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileBackdrop = document.getElementById('mobile-backdrop');
+
+        function openMobileMenu() {
+            mobileMenu.classList.add('show');
+            mobileBackdrop.classList.add('show');
+        }
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('show');
+            mobileBackdrop.classList.remove('show');
+        }
+        hamburger.addEventListener('click', openMobileMenu);
+        mobileBackdrop.addEventListener('click', closeMobileMenu);
+
+        function bookDemo() {
+            alert("🎉 Calendly opens here in the real site!");
+        }
+        function showDemoModal() {
+            alert("🎥 2-minute video would play here.");
+        }
+    </script>
+</body>
+</html>

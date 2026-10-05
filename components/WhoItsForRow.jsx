@@ -16,6 +16,8 @@ export default function WhoItsForRow({
             'Community Groups': '/community-groups',
             'Environmental Causes': '/environmental-causes',
             'Small Nonprofits': '/small-nonprofits',
+            'NYCON Members': '/nycon',
+            'NYCON': '/nycon',
         };
 
         if (routeMap[itemName]) {
