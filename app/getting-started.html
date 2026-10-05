@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started, Migration & Onboarding | HelpOne</title>
+    <meta name="description" content="See exactly how easy it is to switch to HelpOne. Free data migration, white-glove onboarding, and dedicated support so your team is up and running in weeks — not months.">
+    <link rel="canonical" href="https://helponesoftware.com/getting-started/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0A1428 0%, #1A2338 100%); }
+        .module-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .module-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -12px rgb(0 230 195 / 0.25); }
+        .nav-link { position: relative; }
+        .nav-link:after { content: ''; position: absolute; width: 0; height: 2px; bottom: -2px; left: 0; background-color: #00E6C3; transition: width 0.3s ease; }
+        .nav-link:hover:after { width: 100%; }
+        .dropdown { position: relative; }
+        .dropdown-content { 
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            background-color: #0A1428; 
+            border: 1px solid rgba(255,255,255,0.1); 
+            border-radius: 24px; 
+            padding: 24px; 
+            width: 520px; 
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5); 
+            z-index: 50; 
+        }
+        .dropdown:hover .dropdown-content { display: block; }
+        #mobile-menu { 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1); 
+            opacity: 0; 
+        }
+        #mobile-menu.show { 
+            max-height: 100vh; 
+            opacity: 1; 
+        }
+        .mobile-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.75);
+            z-index: 40;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .mobile-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-[#0A1428] text-white overflow-x-hidden">
+
+    <!-- NAVBAR (new structure) -->
+    <nav class="sticky top-0 z-50 bg-[#0A1428]/95 backdrop-blur-lg border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-[#00E6C3] rounded-2xl flex items-center justify-center text-[#0A1428] font-bold text-2xl">H</div>
+                <span class="heading-font text-3xl font-semibold tracking-tighter">HelpOne</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Platform <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content">
+                        <div class="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
+                            <a href="/volunteer-management/" class="hover:text-[#00E6C3]">Volunteer Management</a>
+                            <a href="/event-management/" class="hover:text-[#00E6C3]">Event Management</a>
+                            <a href="/fundraising/" class="hover:text-[#00E6C3]">Fundraising</a>
+                            <a href="/participants/" class="hover:text-[#00E6C3]">Participants</a>
+                            <a href="/donors-and-contacts/" class="hover:text-[#00E6C3]">Donors & Contacts</a>
+                            <a href="/finances/" class="hover:text-[#00E6C3]">Finances</a>
+                            <a href="/hr-solutions/" class="hover:text-[#00E6C3]">HR Solutions</a>
+                            <a href="/policies-and-procedures/" class="hover:text-[#00E6C3]">Policies & Procedures</a>
+                            <a href="/training-tracking/" class="hover:text-[#00E6C3]">Training Tracking</a>
+                            <a href="/it-asset-tracking-management/" class="hover:text-[#00E6C3]">IT Asset Tracking</a>
+                            <a href="/payments/" class="hover:text-[#00E6C3]">Payments</a>
+                            <a href="/switching-to-helpone-payments/" class="hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+                            <a href="/my-helpone/" class="hover:text-[#00E6C3]">My HelpOne</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Who It’s For <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-80">
+                        <a href="/faith-communities/" class="block py-2 hover:text-[#00E6C3]">Faith Communities</a>
+                        <a href="/schools-youth/" class="block py-2 hover:text-[#00E6C3]">Schools & Youth</a>
+                        <a href="/animal-rescues/" class="block py-2 hover:text-[#00E6C3]">Animal Rescues</a>
+                        <a href="/arts-culture/" class="block py-2 hover:text-[#00E6C3]">Arts & Culture</a>
+                        <a href="/community-groups/" class="block py-2 hover:text-[#00E6C3]">Community Groups</a>
+                        <a href="/small-nonprofits/" class="block py-2 hover:text-[#00E6C3]">Small Nonprofits</a>
+                        <a href="/environmental-causes/" class="block py-2 hover:text-[#00E6C3]">Environmental Causes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Payments <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-80">
+                        <a href="/payments/" class="block py-2 hover:text-[#00E6C3]">Payments</a>
+                        <a href="/switching-to-helpone-payments/" class="block py-2 hover:text-[#00E6C3]">Switching to HelpOne Payments</a>
+                    </div>
+                </div>
+                <a href="/pricing/" class="nav-link">Pricing</a>
+                <a href="/getting-started/" class="nav-link text-[#00E6C3]">Getting Started</a>
+                <div class="dropdown">
+                    <button class="nav-link flex items-center gap-1.5">Company <i class="fas fa-chevron-down text-xs mt-0.5"></i></button>
+                    <div class="dropdown-content w-64">
+                        <a href="/faqs/" class="block py-2 hover:text-[#00E6C3]">FAQs</a>
+                        <a href="/about-us/" class="block py-2 hover:text-[#00E6C3]">About Us</a>
+                        <a href="/partners/" class="block py-2 hover:text-[#00E6C3]">Partners</a>
+                        <a href="/affiliate/" class="block py-2 hover:text-[#00E6C3]">Affiliate Program</a>
+                        <a href="/security/" class="block py-2 hover:text-[#00E6C3]">Security</a>
+                        <a href="/terms-and-conditions/" class="block py-2 hover:text-[#00E6C3]">Terms & Conditions</a>
+                        <a href="/privacy-policy/" class="block py-2 hover:text-[#00E6C3]">Privacy Policy</a>
+                        <a href="/contact-us/" class="block py-2 hover:text-[#00E6C3]">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-4">
+                <button onclick="showDemoModal()" class="px-6 py-3 text-sm font-semibold border border-white/30 hover:border-white rounded-2xl transition-all">Watch 2-min video</button>
+                <button onclick="bookDemo()" class="px-8 py-3 bg-[#00E6C3] hover:bg-[#00E6C3]/90 text-[#0A1428] font-semibold rounded-2xl flex items-center gap-2 transition-all">
+                    <i class="fas fa-calendar"></i> Book Free Demo
+                </button>
+            </div>
+            <button id="hamburger" class="md:hidden text-3xl p-2">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-backdrop" class="mobile-backdrop" onclick="closeMobileMenu()"></div>
+        <div id="mobile-menu" class="bg-[#0A1428] border-t border-white/10 px-6 py-8 text-lg">
+            <div class="flex justify-end mb-6">
+                <button onclick="closeMobileMenu()" class="text-4xl text-white/70 hover:text-white"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="flex flex-col gap-6">
+                <a href="/volunteer-management/" class="hover:text-[#00E6C3]">Volunteer Management</a>
+                <a href="/event-management/" class="hover:text-[#00E6C3]">Event Management</a>
+                <a href="/fundraising/" class="hover:text-[#00E6C3]">Fundraising</a>
+                <a href="/participants/" class="hover:text-[#00E6C3]">Participants</a>
+                <a href="/donors-and-contacts/" class="hover:text-[#00E6C3]">Donors & Contacts</a>
+                <a href="/finances/" class="hover:text-[#00E6C3]">Finances</a>
+                <a href="/pricing/" class="hover:text-[#00E6C3]">Pricing</a>
+                <a href="/getting-started/" class="hover:text-[#00E6C3]">Getting Started</a>
+                <a href="/contact-us/" class="hover:text-[#00E6C3]">Contact Us</a>
+                <button onclick="bookDemo()" class="mt-4 px-8 py-4 bg-[#00E6C3] text-[#0A1428] font-semibold rounded-2xl">Book Free Demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-bg min-h-[75vh] flex items-center relative">
+        <div class="absolute inset-0 bg-[url('https://picsum.photos/id/1015/2000/1200')] bg-cover opacity-10"></div>
+        <div class="max-w-screen-2xl mx-auto px-6 pt-20 pb-16 relative z-10">
+            <div class="max-w-4xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-8">
+                    <span class="font-medium">Getting Started • Migration & Onboarding</span>
+                </div>
+                <h1 class="heading-font text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tighter mb-6">
+                    Getting Started<br>with HelpOne
+                </h1>
+                <p class="text-xl md:text-2xl text-white/80 max-w-2xl mb-6">
+                    A smooth, guided transition designed for nonprofits — with free migration, hands-on training, and a dedicated specialist by your side.
+                </p>
+                <p class="text-lg text-white/60 mb-10">Most organizations are fully up and running within 2–4 weeks.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button onclick="openOverviewVideo()" class="px-10 py-6 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-xl font-semibold rounded-3xl flex items-center gap-4 group">
+                        <i class="fas fa-play"></i> Watch 60-Second Overview
+                    </button>
+                    <button onclick="showDemoModal()" class="px-10 py-6 border-2 border-white/80 hover:border-[#00E6C3] text-xl font-semibold rounded-3xl transition-all">
+                        Watch 2-min video
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIRST 30 DAYS -->
+    <section class="py-24 bg-black">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter">Your First 30 Days, Mapped Out</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-[#00E6C3] font-semibold mb-3">Week 1</div>
+                    <h3 class="text-2xl font-semibold mb-4">Kickoff & Migration</h3>
+                    <p class="text-white/70 leading-relaxed">Kickoff call with your dedicated specialist. We review your current tools, collect data, and begin the migration process. You’ll receive clear templates and a simple project plan.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-[#00E6C3] font-semibold mb-3">Week 2</div>
+                    <h3 class="text-2xl font-semibold mb-4">Training & First Wins</h3>
+                    <p class="text-white/70 leading-relaxed">Live training sessions complete. First donations and volunteer activity processed in HelpOne. Your team starts seeing real time savings.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-[#00E6C3] font-semibold mb-3">Weeks 3–4</div>
+                    <h3 class="text-2xl font-semibold mb-4">Full Adoption</h3>
+                    <p class="text-white/70 leading-relaxed">Real-time dashboards are live. Your specialist does a final check-in and stays available for ongoing support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-STEP TRANSITION -->
+    <section class="py-24 bg-[#0A1428]">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter">A Simple, Guided Path to HelpOne</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-4xl mb-5">1</div>
+                    <h3 class="text-xl font-semibold mb-4">Import & Setup</h3>
+                    <p class="text-white/70 leading-relaxed">We handle the heavy lifting. Free data migration from your current systems so nothing is left behind.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-4xl mb-5">2</div>
+                    <h3 class="text-xl font-semibold mb-4">Train & Configure</h3>
+                    <p class="text-white/70 leading-relaxed">Live sessions tailored to your team. We configure the modules you need and hide the rest until you’re ready.</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-10 border border-white/10">
+                    <div class="text-4xl mb-5">3</div>
+                    <h3 class="text-xl font-semibold mb-4">Go Live & Support</h3>
+                    <p class="text-white/70 leading-relaxed">Your dedicated specialist stays with you through go-live and beyond. Most teams are fully operational in 2–4 weeks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ / KEY QUESTIONS -->
+    <section class="py-24 bg-black">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter">Common Questions</h2>
+            </div>
+            <div class="space-y-8">
+                <div class="bg-white/5 rounded-3xl p-8 border border-white/10">
+                    <h3 class="text-xl font-semibold mb-3">Does HelpOne replace QuickBooks?</h3>
+                    <p class="text-white/70 leading-relaxed">
+                        HelpOne Finance is built specifically for nonprofits, with unlimited transactions, restricted funds tracking, and automatic 990/CHAR500 population. Many organizations use it in place of QuickBooks for day-to-day nonprofit accounting. We also support clean syncing with your QuickBooks or other finance system so you can work smoothly and uninterrupted.
+                    </p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-8 border border-white/10">
+                    <h3 class="text-xl font-semibold mb-3">Does HelpOne include payroll?</h3>
+                    <p class="text-white/70 leading-relaxed">No. Most organizations keep their existing payroll provider (ADP, Paychex, Gusto, etc.) and use HelpOne for everything else. This keeps the transition simple and avoids disrupting payroll.</p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-8 border border-white/10">
+                    <h3 class="text-xl font-semibold mb-3">Does HelpOne replace Google Workspace or Microsoft 365?</h3>
+                    <p class="text-white/70 leading-relaxed">No. Your team continues using Google Workspace or Microsoft 365 for email and calendar. HelpOne connects to Google Drive (and Dropbox/Microsoft) for files while your communication tools stay the same.</p>
+                </div>
+                <div class="bg-white/5 rounded-3xl p-8 border border-white/10">
+                    <h3 class="text-xl font-semibold mb-3">Do I need technical staff to implement HelpOne?</h3>
+                    <p class="text-white/70 leading-relaxed">No. We handle the technical setup and migration. Your team’s role is reviewing data and participating in short training sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY THIS WORKS -->
+    <section class="py-24 bg-[#0A1428]">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter">Built for Real Nonprofit Teams</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="module-card bg-white/5 rounded-3xl p-8 border border-white/10 text-center">
+                    <div class="text-3xl mb-4">🔄</div>
+                    <h3 class="font-semibold mb-2">Seamless Imports</h3>
+                    <p class="text-white/60 text-sm">DonorPerfect, VolunteerHub, QuickBooks, and more</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-8 border border-white/10 text-center">
+                    <div class="text-3xl mb-4">👤</div>
+                    <h3 class="font-semibold mb-2">Human Support</h3>
+                    <p class="text-white/60 text-sm">A real specialist walks with you the entire way</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-8 border border-white/10 text-center">
+                    <div class="text-3xl mb-4">⚡</div>
+                    <h3 class="font-semibold mb-2">Fast Time-to-Value</h3>
+                    <p class="text-white/60 text-sm">Most teams see clear time savings in the first two weeks</p>
+                </div>
+                <div class="module-card bg-white/5 rounded-3xl p-8 border border-white/10 text-center">
+                    <div class="text-3xl mb-4">🔓</div>
+                    <h3 class="font-semibold mb-2">No Long-Term Contracts</h3>
+                    <p class="text-white/60 text-sm">Cancel anytime and take your data with you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <div class="bg-[#00E6C3] text-[#0A1428] py-24 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="heading-font text-4xl md:text-5xl font-bold tracking-tighter mb-6">Ready to Make the Switch?</h2>
+            <p class="text-xl mb-10">Join the Founders Program and get free migration, white-glove onboarding, and a dedicated specialist — so your team can focus on the mission instead of the tools.</p>
+            <button onclick="bookDemo()" class="px-12 py-6 bg-[#0A1428] text-white text-xl font-semibold rounded-3xl hover:scale-105 transition-all">
+                Book Your Free Demo
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-20">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="grid md:grid-cols-5 gap-12">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-8 h-8 bg-[#00E6C3] rounded-2xl flex items-center justify-center text-[#0A1428] font-bold">H</div>
+                        <span class="heading-font text-3xl font-semibold tracking-tighter">HelpOne</span>
+                    </div>
+                    <p class="text-white/60 text-sm">The operating system for world-changing nonprofits.</p>
+                    <div class="mt-8 text-xs text-white/40">© 2026 HelpOne Software, Inc.</div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Platform</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/volunteer-management/" class="block hover:text-white">Volunteer Management</a>
+                        <a href="/event-management/" class="block hover:text-white">Event Management</a>
+                        <a href="/fundraising/" class="block hover:text-white">Fundraising</a>
+                        <a href="/participants/" class="block hover:text-white">Participants</a>
+                        <a href="/donors-and-contacts/" class="block hover:text-white">Donors & Contacts</a>
+                        <a href="/finances/" class="block hover:text-white">Finances</a>
+                        <a href="/hr-solutions/" class="block hover:text-white">HR Solutions</a>
+                        <a href="/policies-and-procedures/" class="block hover:text-white">Policies & Procedures</a>
+                        <a href="/training-tracking/" class="block hover:text-white">Training Tracking</a>
+                        <a href="/it-asset-tracking-management/" class="block hover:text-white">IT Asset Tracking</a>
+                        <a href="/payments/" class="block hover:text-white">Payments</a>
+                        <a href="/getting-started/" class="block hover:text-white">Getting Started</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Who It’s For</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/faith-communities/" class="block hover:text-white">Faith Communities</a>
+                        <a href="/schools-youth/" class="block hover:text-white">Schools & Youth</a>
+                        <a href="/animal-rescues/" class="block hover:text-white">Animal Rescues</a>
+                        <a href="/arts-culture/" class="block hover:text-white">Arts & Culture</a>
+                        <a href="/community-groups/" class="block hover:text-white">Community Groups</a>
+                        <a href="/small-nonprofits/" class="block hover:text-white">Small Nonprofits</a>
+                        <a href="/environmental-causes/" class="block hover:text-white">Environmental Causes</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Company</div>
+                    <div class="space-y-3 text-sm text-white/70">
+                        <a href="/faqs/" class="block hover:text-white">FAQs</a>
+                        <a href="/about-us/" class="block hover:text-white">About Us</a>
+                        <a href="/partners/" class="block hover:text-white">Partners</a>
+                        <a href="/affiliate/" class="block hover:text-white">Affiliate Program</a>
+                        <a href="/security/" class="block hover:text-white">Security</a>
+                        <a href="/terms-and-conditions/" class="block hover:text-white">Terms & Conditions</a>
+                        <a href="/privacy-policy/" class="block hover:text-white">Privacy Policy</a>
+                        <a href="/contact-us/" class="block hover:text-white">Contact Us</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-6 text-[#00E6C3]">Get in touch</div>
+                    <div class="text-sm text-white/70 mb-6">hello@helponesoftware.com</div>
+                    <button onclick="bookDemo()" class="w-full py-4 border border-white/30 hover:bg-white/10 rounded-2xl text-sm font-medium">
+                        Book a Free Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/85 backdrop-blur-sm hidden" onclick="closeVideoModal()">
+        <div class="relative w-full max-w-5xl mx-4 aspect-video rounded-2xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+            <button onclick="closeVideoModal()" class="absolute top-3 right-3 z-20 w-9 h-9 flex items-center justify-center bg-black/60 hover:bg-black rounded-full text-white text-lg transition-all" aria-label="Close video">
+                <i class="fas fa-times"></i>
+            </button>
+            <div id="video-container" class="w-full h-full"></div>
+        </div>
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileBackdrop = document.getElementById('mobile-backdrop');
+
+        function openMobileMenu() {
+            mobileMenu.classList.add('show');
+            mobileBackdrop.classList.add('show');
+        }
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('show');
+            mobileBackdrop.classList.remove('show');
+        }
+        hamburger.addEventListener('click', openMobileMenu);
+        mobileBackdrop.addEventListener('click', closeMobileMenu);
+
+        function bookDemo() {
+            alert("🎉 Calendly opens here in the real site!");
+        }
+        function showDemoModal() {
+            alert("🎥 2-minute video would play here.");
+        }
+
+        const videoModal = document.getElementById('video-modal');
+        const videoContainer = document.getElementById('video-container');
+
+        function openOverviewVideo() {
+            videoContainer.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jNdoSInTI8w?autoplay=1" title="HelpOne Getting Started: White-Glove Onboarding with Personal Support from the CEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+            videoModal.classList.remove('hidden');
+        }
+
+        function closeVideoModal() {
+            videoModal.classList.add('hidden');
+            videoContainer.innerHTML = ''; // Stop video playing
+        }
+    </script>
+</body>
+</html>

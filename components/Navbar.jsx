@@ -147,7 +147,6 @@ export default function Navbar() {
                                     <Link href="/policies-and-procedures" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Policies &amp; Procedures</Link>
                                     <Link href="/training-tracking" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Training Tracking</Link>
                                     <Link href="/my-helpone" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">My HelpOne</Link>
-                                    <Link href="/getting-started" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Getting Started</Link>
                                 </div>
                             </div>
                         </div>
@@ -169,6 +168,7 @@ export default function Navbar() {
                                 <Link href="/community-groups" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Community Groups</Link>
                                 <Link href="/small-nonprofits" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Small Nonprofits</Link>
                                 <Link href="/environmental-causes" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Environmental Causes</Link>
+                                <Link href="/nycon" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">NYCON Members</Link>
                             </div>
                         </div>
 
@@ -189,6 +189,25 @@ export default function Navbar() {
 
                         <Link href="/pricing/" className="nav-link">Pricing</Link>
 
+                        {/* Resources */}
+                        <div
+                            className={`dropdown ${openDesktopDropdown === 'resources' ? 'open' : ''}`}
+                            onMouseEnter={() => handleMouseEnter('resources')}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <button className="nav-link flex items-center gap-1.5 focus:outline-none" aria-label="Open Resources Menu">
+                                Resources <i className={`fas fa-chevron-down text-xs mt-0.5 transition-transform duration-300 ${openDesktopDropdown === 'resources' ? 'rotate-180' : ''}`}></i>
+                            </button>
+                            <div className="dropdown-content w-64" onClick={closeDesktopDropdowns}>
+                                <Link href="/getting-started" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Getting Started</Link>
+                                <a href="https://helpone.knowledgeowl.com/help" target="_blank" rel="noopener noreferrer" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors flex items-center justify-between">
+                                    Knowledge Base <i className="fas fa-external-link-alt text-xs text-white/40"></i>
+                                </a>
+                                <Link href="/faq" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">FAQs</Link>
+                                <Link href="/contact-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Contact Us</Link>
+                            </div>
+                        </div>
+
                         {/* Company */}
                         <div
                             className={`dropdown ${openDesktopDropdown === 'company' ? 'open' : ''}`}
@@ -199,14 +218,12 @@ export default function Navbar() {
                                 Company <i className={`fas fa-chevron-down text-xs mt-0.5 transition-transform duration-300 ${openDesktopDropdown === 'company' ? 'rotate-180' : ''}`}></i>
                             </button>
                             <div className="dropdown-content" onClick={closeDesktopDropdowns}>
-                                <Link href="/faq" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">FAQs</Link>
                                 <Link href="/about-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">About Us</Link>
+                                <Link href="/compare" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Compare</Link>
                                 <Link href="/partners" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Partners</Link>
-
                                 <Link href="/security" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Security</Link>
                                 <Link href="/terms-and-conditions" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Terms & Conditions</Link>
                                 <Link href="/privacy-policy" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Privacy Policy</Link>
-                                <Link data-aos="fade-up" href="/contact-us" className="block py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00E6C3] transition-colors">Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -215,9 +232,9 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center gap-4">
                         <button
                             onClick={showDemoModal}
-                            className="p-4 text-sm font-semibold border border-white/30 hover:border-white rounded-xl transition-all text-white"
+                            className="p-4 text-sm font-semibold border border-white/30 hover:border-white rounded-xl transition-all text-white flex items-center gap-2 cursor-pointer"
                         >
-                            Watch 2-min video
+                            <i className="fas fa-play text-xs text-[#00E6C3]"></i> Watch 2-min video
                         </button>
                         <Link
                             href="/contact-us"
@@ -281,7 +298,6 @@ export default function Navbar() {
                                         <Link href="/policies-and-procedures" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Policies &amp; Procedures</Link>
                                         <Link href="/training-tracking" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Training Tracking</Link>
                                         <Link href="/my-helpone" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">My HelpOne</Link>
-                                        <Link href="/getting-started" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Getting Started</Link>
                                     </div>
                                 )}
 
@@ -302,6 +318,7 @@ export default function Navbar() {
                                         <Link href="/community-groups" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Community Groups</Link>
                                         <Link href="/small-nonprofits" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Small Nonprofits</Link>
                                         <Link href="/environmental-causes" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Environmental Causes</Link>
+                                        <Link href="/nycon" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">NYCON Members</Link>
                                     </div>
                                 )}
 
@@ -326,6 +343,25 @@ export default function Navbar() {
                                     Pricing
                                 </Link>
 
+                                {/* Resources */}
+                                <button
+                                    onClick={() => toggleMobileDropdown('resources')}
+                                    className="flex items-center justify-between w-full py-3 font-semibold text-[#00E6C3] border-t border-white/10"
+                                >
+                                    Resources
+                                    <i className={`fas fa-chevron-down text-xs transition-transform duration-300 ${openDropdowns['resources'] ? 'rotate-180' : ''}`}></i>
+                                </button>
+                                {openDropdowns['resources'] && (
+                                    <div className="flex flex-col gap-1 pl-3 mb-2 border-l-2 border-[#00E6C3]/30">
+                                        <Link href="/getting-started" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Getting Started</Link>
+                                        <a href="https://helpone.knowledgeowl.com/help" target="_blank" rel="noopener noreferrer" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3] flex items-center justify-between pr-3">
+                                            Knowledge Base <i className="fas fa-external-link-alt text-xs text-white/40"></i>
+                                        </a>
+                                        <Link href="/faq" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">FAQs</Link>
+                                        <Link href="/contact-us" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Contact Us</Link>
+                                    </div>
+                                )}
+
                                 {/* Company */}
                                 <button
                                     onClick={() => toggleMobileDropdown('company')}
@@ -338,6 +374,7 @@ export default function Navbar() {
                                     <div className="flex flex-col gap-1 pl-3 mb-2 border-l-2 border-[#00E6C3]/30">
                                         <Link href="/faq" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">FAQs</Link>
                                         <Link href="/about-us" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">About Us</Link>
+                                        <Link href="/compare" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Compare</Link>
                                         <Link href="/partners" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Partners</Link>
 
                                         <Link href="/security" onClick={closeMobileMenu} className="py-2 text-white/80 hover:text-[#00E6C3]">Security</Link>
@@ -352,9 +389,9 @@ export default function Navbar() {
                             <div className="px-6 pb-8 pt-2 border-t border-white/10 flex flex-col gap-3">
                                 <button
                                     onClick={() => { showDemoModal(); closeMobileMenu(); }}
-                                    className="w-full py-4 border border-white/30 text-white font-semibold rounded-2xl text-sm hover:border-white transition-all"
+                                    className="w-full py-4 border border-white/30 text-white font-semibold rounded-2xl text-sm hover:border-white transition-all flex items-center justify-center gap-2 cursor-pointer"
                                 >
-                                    <i className="fas fa-play mr-2"></i> Watch 2-min Video
+                                    <i className="fas fa-play text-xs text-[#00E6C3]"></i> Watch 2-min Video
                                 </button>
                                 <Link
                                     href="/contact-us"

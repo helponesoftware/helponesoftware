@@ -38,6 +38,7 @@ export default function Footer() {
                             <Link href="/training-tracking" className="block hover:text-white">Training Tracking</Link>
                             <Link href="/payments" className="block hover:text-white">Payments</Link>
                             <Link href="/switching-to-helpone-payments" className="block hover:text-white">Switching to HelpOne Payments</Link>
+                            <Link href="/getting-started" className="block hover:text-white">Getting Started</Link>
                         </div>
                     </div>
 
@@ -51,14 +52,20 @@ export default function Footer() {
                             <Link href="/community-groups" className="block hover:text-white">Community Groups</Link>
                             <Link href="/small-nonprofits" className="block hover:text-white">Small Nonprofits</Link>
                             <Link href="/environmental-causes" className="block hover:text-white">Environmental Causes</Link>
+                            <Link href="/nycon" className="block hover:text-white">NYCON Members</Link>
                         </div>
                     </div>
 
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <div className="font-medium mb-6 text-[#00E6C3]">Company</div>
+                        <div className="font-medium mb-6 text-[#00E6C3]">Company | Resources</div>
                         <div className="space-y-3 text-sm text-white/70">
+                            <Link href="/getting-started" className="block hover:text-white">Getting Started</Link>
+                            <a href="https://helpone.knowledgeowl.com/help" target="_blank" rel="noopener noreferrer" className="block hover:text-white flex items-center justify-between">
+                                Knowledge Base <i className="fas fa-external-link-alt text-xs text-white/40"></i>
+                            </a>
                             <Link href="/faq" className="block hover:text-white">FAQs</Link>
                             <Link href="/about-us" className="block hover:text-white">About Us</Link>
+                            <Link href="/compare" className="block hover:text-white">Compare</Link>
                             <Link href="/partners" className="block hover:text-white">Partners</Link>
                             <Link href="/security" className="block hover:text-white">Security</Link>
                             <Link href="/terms-and-conditions" className="block hover:text-white">Terms &amp; Conditions</Link>

@@ -8,13 +8,18 @@ export default function Hero({
     microLine,
     primaryCtaText = "Schedule Free Demo",
     primaryCtaLink = "/contact-us",
+    onPrimaryCtaClick,
     secondaryCtaText = "Claim Founders Rate – $499/mo forever",
     secondaryCtaLink = "/contact-us",
+    onSecondaryCtaClick,
+    secondaryCtaIcon,
     hideSecondaryCta = false,
     hideButtons = false,
     children
 }) {
     const bgImage = "https://picsum.photos/id/1015/2000/1200";
+    const isExternalSecondary = secondaryCtaLink && (secondaryCtaLink.startsWith('http://') || secondaryCtaLink.startsWith('https://'));
+
     return (
         <section className="hero-bg min-h-[60vh] flex items-center relative">
             <div
@@ -56,13 +61,46 @@ export default function Hero({
                         </div>
                     ) : !hideButtons && (
                         <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col sm:flex-row items-stretch sm:items-center justify-start gap-4 mt-8 w-full">
-                            <Link href={primaryCtaLink} className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-3 group transition-colors">
-                                {primaryCtaText} <span className="text-lg md:text-xl group-hover:translate-x-1 transition-transform">→</span>
-                            </Link>
-                            {!hideSecondaryCta && (
-                                <Link href={secondaryCtaLink} className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-transparent border border-white/60 hover:border-[#00E6C3] hover:bg-white/5 text-white text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-2 transition-all">
-                                    {secondaryCtaText}
+                            {onPrimaryCtaClick ? (
+                                <button
+                                    type="button"
+                                    onClick={onPrimaryCtaClick}
+                                    className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-3 group transition-colors cursor-pointer"
+                                >
+                                    {primaryCtaText} <span className="text-lg md:text-xl group-hover:translate-x-1 transition-transform">→</span>
+                                </button>
+                            ) : (
+                                <Link href={primaryCtaLink} className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-[#00E6C3] hover:bg-white text-[#0A1428] text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-3 group transition-colors [text-decoration:none]">
+                                    {primaryCtaText} <span className="text-lg md:text-xl group-hover:translate-x-1 transition-transform">→</span>
                                 </Link>
+                            )}
+                            {!hideSecondaryCta && (
+                                onSecondaryCtaClick ? (
+                                    <button
+                                        type="button"
+                                        onClick={onSecondaryCtaClick}
+                                        className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-transparent border border-white/60 hover:border-[#00E6C3] hover:bg-white/5 text-white text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-2.5 transition-all cursor-pointer"
+                                    >
+                                        {secondaryCtaIcon || <i className="fas fa-play text-xs sm:text-sm text-[#00E6C3]"></i>}
+                                        {secondaryCtaText}
+                                    </button>
+                                ) : isExternalSecondary ? (
+                                    <a
+                                        href={secondaryCtaLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-transparent border border-white/60 hover:border-[#00E6C3] hover:bg-white/5 text-white text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-2 transition-all [text-decoration:none]"
+                                    >
+                                        {secondaryCtaText}
+                                    </a>
+                                ) : (
+                                    <Link
+                                        href={secondaryCtaLink}
+                                        className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 bg-transparent border border-white/60 hover:border-[#00E6C3] hover:bg-white/5 text-white text-base md:text-lg font-semibold rounded-2xl flex items-center justify-center gap-2 transition-all [text-decoration:none]"
+                                    >
+                                        {secondaryCtaText}
+                                    </Link>
+                                )
                             )}
                         </div>
                     )}

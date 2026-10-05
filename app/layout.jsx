@@ -46,6 +46,11 @@ export const metadata = {
     alternates: {
         canonical: siteUrl,
     },
+    icons: {
+        icon: '/assets/favicon/favicon.png',
+        shortcut: '/assets/favicon/favicon.png',
+        apple: '/assets/favicon/favicon.png',
+    },
     category: 'technology',
 };
 
@@ -68,6 +73,8 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
+                <link rel="icon" href="/assets/favicon/favicon.png" type="image/png" />
+                <link rel="apple-touch-icon" href="/assets/favicon/favicon.png" />
                 <link
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
